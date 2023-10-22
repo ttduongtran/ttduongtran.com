@@ -1,93 +1,100 @@
+import merge from 'lodash/merge';
 import { Theme } from '@mui/material/styles';
 //
-import Fab from './Fab';
-import Card from './Card';
-import Chip from './Chip';
-import Tabs from './Tabs';
-import Menu from './Menu';
-import Link from './Link';
-import Lists from './List';
-import Table from './Table';
-import Alert from './Alert';
-import Badge from './Badge';
-import Paper from './Paper';
-import Input from './Input';
-import Radio from './Radio';
-import Drawer from './Drawer';
-import Dialog from './Dialog';
-import Avatar from './Avatar';
-import Rating from './Rating';
-import Slider from './Slider';
-import Button from './Button';
-import Switch from './Switch';
-import Select from './Select';
-import SvgIcon from './SvgIcon';
-import Tooltip from './Tooltip';
-import Popover from './Popover';
-import Stepper from './Stepper';
-import DataGrid from './DataGrid';
-import Skeleton from './Skeleton';
-import Backdrop from './Backdrop';
-import Progress from './Progress';
-import Timeline from './Timeline';
-import TreeView from './TreeView';
-import Checkbox from './Checkbox';
-import Accordion from './Accordion';
-import Typography from './Typography';
-import Pagination from './Pagination';
-import Breadcrumbs from './Breadcrumbs';
-import ButtonGroup from './ButtonGroup';
-import CssBaseline from './CssBaseline';
-import Autocomplete from './Autocomplete';
-import ToggleButton from './ToggleButton';
-import ControlLabel from './ControlLabel';
-import LoadingButton from './LoadingButton';
+import { defaultProps } from './default-props';
+//
+import { fab } from './components/fab';
+import { card } from './components/card';
+import { chip } from './components/chip';
+import { tabs } from './components/tabs';
+import { menu } from './components/menu';
+import { list } from './components/list';
+import { table } from './components/table';
+import { alert } from './components/alert';
+import { badge } from './components/badge';
+import { paper } from './components/paper';
+import { radio } from './components/radio';
+import { appBar } from './components/appbar';
+import { drawer } from './components/drawer';
+import { dialog } from './components/dialog';
+import { avatar } from './components/avatar';
+import { rating } from './components/rating';
+import { slider } from './components/slider';
+import { button } from './components/button';
+import { select } from './components/select';
+import { switches } from './components/switch';
+import { tooltip } from './components/tooltip';
+import { popover } from './components/popover';
+import { stepper } from './components/stepper';
+import { svgIcon } from './components/svg-icon';
+import { skeleton } from './components/skeleton';
+import { backdrop } from './components/backdrop';
+import { progress } from './components/progress';
+import { timeline } from './components/timeline';
+import { checkbox } from './components/checkbox';
+import { dataGrid } from './components/data-grid';
+import { treeView } from './components/tree-view';
+import { textField } from './components/textfield';
+import { accordion } from './components/accordion';
+import { typography } from './components/typography';
+import { pagination } from './components/pagination';
+import { datePicker } from './components/date-picker';
+import { breadcrumbs } from './components/breadcrumbs';
+import { cssBaseline } from './components/css-baseline';
+import { buttonGroup } from './components/button-group';
+import { autocomplete } from './components/autocomplete';
+import { toggleButton } from './components/toggle-button';
+import { loadingButton } from './components/loading-button';
 
 // ----------------------------------------------------------------------
 
-export default function ComponentsOverrides(theme: Theme) {
-  return Object.assign(
-    Fab(theme),
-    Tabs(theme),
-    Chip(theme),
-    Card(theme),
-    Menu(theme),
-    Link(theme),
-    Input(theme),
-    Radio(theme),
-    Badge(theme),
-    Lists(theme),
-    Table(theme),
-    Paper(theme),
-    Alert(theme),
-    Switch(theme),
-    Select(theme),
-    Button(theme),
-    Rating(theme),
-    Dialog(theme),
-    Avatar(theme),
-    Slider(theme),
-    Drawer(theme),
-    Stepper(theme),
-    Tooltip(theme),
-    Popover(theme),
-    SvgIcon(theme),
-    Checkbox(theme),
-    DataGrid(theme),
-    Skeleton(theme),
-    Timeline(theme),
-    TreeView(theme),
-    Backdrop(theme),
-    Progress(theme),
-    Accordion(theme),
-    Typography(theme),
-    Pagination(theme),
-    ButtonGroup(theme),
-    Breadcrumbs(theme),
-    CssBaseline(theme),
-    Autocomplete(theme),
-    ControlLabel(theme),
-    ToggleButton(theme),
-    LoadingButton(theme)
+export function componentsOverrides(theme: Theme) {
+  const components = merge(
+    defaultProps(theme),
+    //
+    fab(theme),
+    tabs(theme),
+    chip(theme),
+    card(theme),
+    menu(theme),
+    list(theme),
+    badge(theme),
+    table(theme),
+    paper(theme),
+    alert(theme),
+    radio(theme),
+    select(theme),
+    button(theme),
+    rating(theme),
+    dialog(theme),
+    appBar(theme),
+    avatar(theme),
+    slider(theme),
+    drawer(theme),
+    stepper(theme),
+    tooltip(theme),
+    popover(theme),
+    svgIcon(theme),
+    switches(theme),
+    checkbox(theme),
+    dataGrid(theme),
+    skeleton(theme),
+    timeline(theme),
+    treeView(theme),
+    backdrop(theme),
+    progress(theme),
+    textField(theme),
+    accordion(theme),
+    typography(theme),
+    pagination(theme),
+    datePicker(theme),
+    buttonGroup(theme),
+    breadcrumbs(theme),
+    cssBaseline(theme),
+    autocomplete(theme),
+    toggleButton(theme),
+    loadingButton(theme)
   );
+
+  return components;
 }

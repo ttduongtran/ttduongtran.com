@@ -1,5 +1,4 @@
-// @types
-import { VariantsType } from '../type';
+import { VariantsType } from '../types';
 //
 import { varTranEnter, varTranExit } from './transition';
 
@@ -38,22 +37,34 @@ export const varSlide = (props?: VariantsType) => {
     // OUT
     outUp: {
       initial: { y: 0 },
-      animate: { y: -distance, transition: varTranEnter({ durationIn, easeIn }) },
+      animate: {
+        y: -distance,
+        transition: varTranEnter({ durationIn, easeIn }),
+      },
       exit: { y: 0, transition: varTranExit({ durationOut, easeOut }) },
     },
     outDown: {
       initial: { y: 0 },
-      animate: { y: distance, transition: varTranEnter({ durationIn, easeIn }) },
+      animate: {
+        y: distance,
+        transition: varTranEnter({ durationIn, easeIn }),
+      },
       exit: { y: 0, transition: varTranExit({ durationOut, easeOut }) },
     },
     outLeft: {
       initial: { x: 0 },
-      animate: { x: -distance, transition: varTranEnter({ durationIn, easeIn }) },
+      animate: {
+        x: -distance,
+        transition: varTranEnter({ durationIn, easeIn }),
+      },
       exit: { x: 0, transition: varTranExit({ durationOut, easeOut }) },
     },
     outRight: {
       initial: { x: 0 },
-      animate: { x: distance, transition: varTranEnter({ durationIn, easeIn }) },
+      animate: {
+        x: distance,
+        transition: varTranEnter({ durationIn, easeIn }),
+      },
       exit: { x: 0, transition: varTranExit({ durationOut, easeOut }) },
     },
   };

@@ -1,4 +1,4 @@
-import { getToken } from '@/utils/cacheStorage';
+import { getToken } from '@/utils/cache-storage';
 
 export const isBrowser = typeof window !== 'undefined';
 
