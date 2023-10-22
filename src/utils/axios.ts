@@ -1,15 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios';
+import axios, { AxiosRequestConfig } from 'axios';
 
 // config
-import {
-  getRefreshToken,
-  removeRefreshToken,
-  saveRefreshToken,
-  removeToken,
-  saveToken,
-  getToken,
-} from './cache-storage';
+import { getToken } from './cache-storage';
 
 import { getHeaders } from '.';
 import { HOST_API } from '@/config-global';
@@ -38,38 +30,7 @@ axiosInstance.interceptors.request.use(
   }
 );
 
-// axiosInstance.interceptors.response.use(
-//   (response: AxiosResponse) => response,
-//   async (error: AxiosError) => {
-//     const refreshToken = getRefreshToken();
-
-//     if (error.response?.status === 401) {
-//       const isRequestRefreshToken = error.config.url?.includes('users/refresh_token');
-
-//       if (isRequestRefreshToken) {
-//         removeRefreshToken();
-//         // TODO: Disconnect web3auth <-- FIXME
-//       }
-//       if (!refreshToken) {
-//         return Promise.reject(error);
-//       }
-//       removeToken();
-//       try {
-//         const params = { refresh_token: refreshToken };
-//         const response = await rf.getRequest('AuthRequest').refreshToken(params);
-//         const { access_token, refresh_token } = response.data;
-//         if (access_token) {
-//           saveToken(access_token);
-//           saveRefreshToken(refresh_token);
-//         }
-//       } catch (error) {
-//         removeRefreshToken();
-//         return Promise.reject(error);
-//       }
-//     }
-//     return Promise.reject(error || 'Something went wrong');
-//   }
-// );
+export default axiosInstance;
 
 // ----------------------------------------------------------------------
 
