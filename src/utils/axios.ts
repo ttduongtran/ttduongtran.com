@@ -1,33 +1,14 @@
 import axios, { AxiosRequestConfig } from 'axios';
-
 // config
-import { getToken } from './cache-storage';
-
-import { getHeaders } from '.';
-import { HOST_API } from '@/config-global';
-
-const API_VERSION = '/v1';
+import { HOST_API } from 'src/config-global';
 
 // ----------------------------------------------------------------------
 
-const axiosInstance = axios.create({
-  baseURL: HOST_API + API_VERSION,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
+const axiosInstance = axios.create({ baseURL: HOST_API });
 
-axiosInstance.interceptors.request.use(
-  (config) => {
-    const token = getToken();
-    if (token) {
-      config.headers = getHeaders() as any;
-    }
-    return config;
-  },
-  (error) => {
-    return Promise.reject(error);
-  }
+axiosInstance.interceptors.response.use(
+  (res) => res,
+  (error) => Promise.reject((error.response && error.response.data) || 'Something went wrong')
 );
 
 export default axiosInstance;
