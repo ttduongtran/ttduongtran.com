@@ -17,12 +17,12 @@ import DialogActions from '@mui/material/DialogActions';
 import Dialog, { DialogProps } from '@mui/material/Dialog';
 import Input, { InputProps, inputClasses } from '@mui/material/Input';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // components
-import Iconify from '@/components/iconify';
-import Carousel, { CarouselArrows, useCarousel } from '@/components/carousel';
+import Iconify from 'src/components/iconify';
+import Carousel, { CarouselArrows, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

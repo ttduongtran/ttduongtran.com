@@ -18,10 +18,10 @@ import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // _mock
 import {
   _roles,
@@ -30,12 +30,12 @@ import {
   JOB_EXPERIENCE_OPTIONS,
   JOB_EMPLOYMENT_TYPE_OPTIONS,
   JOB_WORKING_SCHEDULE_OPTIONS,
-} from '@/_mock';
+} from 'src/_mock';
 // assets
-import { countries } from '@/assets/data';
+import { countries } from 'src/assets/data';
 // components
-import Iconify from '@/components/iconify';
-import { useSnackbar } from '@/components/snackbar';
+import Iconify from 'src/components/iconify';
+import { useSnackbar } from 'src/components/snackbar';
 import FormProvider, {
   RHFEditor,
   RHFSwitch,
@@ -43,9 +43,9 @@ import FormProvider, {
   RHFRadioGroup,
   RHFAutocomplete,
   RHFMultiCheckbox,
-} from '@/components/hook-form';
+} from 'src/components/hook-form';
 // types
-import { IJobItem } from '@/types/job';
+import { IJobItem } from 'src/types/job';
 
 // ----------------------------------------------------------------------
 

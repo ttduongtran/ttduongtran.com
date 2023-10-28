@@ -1,5 +1,5 @@
 // sections
-import DataGridView from '@/sections/_examples/mui/data-grid-view';
+import DataGridView from 'src/sections/_examples/mui/data-grid-view';
 
 // ----------------------------------------------------------------------
 

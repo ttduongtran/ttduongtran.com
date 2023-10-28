@@ -7,9 +7,9 @@ import ButtonBase from '@mui/material/ButtonBase';
 import CardHeader from '@mui/material/CardHeader';
 import Card, { CardProps } from '@mui/material/Card';
 // components
-import Iconify from '@/components/iconify';
-import Chart, { useChart } from '@/components/chart';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
+import Iconify from 'src/components/iconify';
+import Chart, { useChart } from 'src/components/chart';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

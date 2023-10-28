@@ -6,18 +6,18 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // _mock
 import {
   _ecommerceNewProducts,
   _ecommerceSalesOverview,
   _ecommerceBestSalesman,
   _ecommerceLatestProducts,
-} from '@/_mock';
+} from 'src/_mock';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 // assets
-import { MotivationIllustration } from '@/assets/illustrations';
+import { MotivationIllustration } from 'src/assets/illustrations';
 //
 import EcommerceWelcome from '../ecommerce-welcome';
 import EcommerceNewProducts from '../ecommerce-new-products';

@@ -3,9 +3,9 @@ import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 // types
-import { IMailLabel } from '@/types/mail';
+import { IMailLabel } from 'src/types/mail';
 // components
-import Iconify, { IconifyProps } from '@/components/iconify';
+import Iconify, { IconifyProps } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

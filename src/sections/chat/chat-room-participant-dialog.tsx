@@ -7,9 +7,9 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import DialogContent from '@mui/material/DialogContent';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

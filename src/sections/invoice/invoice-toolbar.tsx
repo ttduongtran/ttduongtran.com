@@ -12,14 +12,14 @@ import IconButton from '@mui/material/IconButton';
 import DialogActions from '@mui/material/DialogActions';
 import CircularProgress from '@mui/material/CircularProgress';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // types
-import { IInvoice } from '@/types/invoice';
+import { IInvoice } from 'src/types/invoice';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import InvoicePDF from './invoice-pdf';
 

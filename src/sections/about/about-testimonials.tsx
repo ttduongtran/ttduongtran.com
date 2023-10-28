@@ -12,16 +12,16 @@ import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 import Stack, { StackProps } from '@mui/material/Stack';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // utils
-import { fDate } from '@/utils/format-time';
+import { fDate } from 'src/utils/format-time';
 // _mock
-import { _testimonials } from '@/_mock';
+import { _testimonials } from 'src/_mock';
 // theme
-import { bgBlur, bgGradient, hideScroll } from '@/theme/css';
+import { bgBlur, bgGradient, hideScroll } from 'src/theme/css';
 // components
-import Iconify from '@/components/iconify';
-import { MotionViewport, varFade } from '@/components/animate';
+import Iconify from 'src/components/iconify';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

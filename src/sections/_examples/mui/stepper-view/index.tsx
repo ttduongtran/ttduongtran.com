@@ -6,9 +6,9 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import CustomizedStepper from './customized-steppers';
 import VerticalLinearStepper from './vertical-linear-stepper';

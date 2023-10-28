@@ -32,16 +32,16 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import CircularProgress from '@mui/material/CircularProgress';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _mock } from '@/_mock';
+import { _mock } from 'src/_mock';
 // components
-import Label from '@/components/label';
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import { MotionViewport, varFade } from '@/components/animate';
+import Label from 'src/components/label';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

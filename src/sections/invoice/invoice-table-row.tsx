@@ -12,16 +12,16 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // types
-import { IInvoice } from '@/types/invoice';
+import { IInvoice } from 'src/types/invoice';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import { ConfirmDialog } from '@/components/custom-dialog';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

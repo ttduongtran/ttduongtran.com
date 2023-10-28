@@ -1,5 +1,5 @@
 // sections
-import { FirebaseForgotPasswordView } from '@/sections/auth/firebase';
+import { FirebaseForgotPasswordView } from 'src/sections/auth/firebase';
 
 // ----------------------------------------------------------------------
 

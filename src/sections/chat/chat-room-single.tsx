@@ -6,11 +6,11 @@ import Collapse from '@mui/material/Collapse';
 import Typography from '@mui/material/Typography';
 import ListItemButton from '@mui/material/ListItemButton';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

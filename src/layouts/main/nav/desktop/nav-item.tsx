@@ -5,9 +5,9 @@ import Box from '@mui/material/Box';
 import Link, { LinkProps } from '@mui/material/Link';
 import CardActionArea from '@mui/material/CardActionArea';
 // routes
-import { RouterLink } from '@/routes/components';
+import { RouterLink } from 'src/routes/components';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import { NavItemDesktopProps, NavItemProps } from '../types';
 import { ListItem } from './styles';

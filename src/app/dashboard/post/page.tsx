@@ -1,5 +1,5 @@
 // sections
-import { PostListView } from '@/sections/blog/view';
+import { PostListView } from 'src/sections/blog/view';
 
 // ----------------------------------------------------------------------
 

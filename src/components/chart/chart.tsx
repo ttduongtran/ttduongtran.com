@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 // @mui
 import { alpha, styled } from '@mui/material/styles';
 // theme
-import { bgBlur } from '@/theme/css';
+import { bgBlur } from 'src/theme/css';
 
 // ----------------------------------------------------------------------
 

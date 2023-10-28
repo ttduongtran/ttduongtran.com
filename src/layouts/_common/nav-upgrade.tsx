@@ -5,13 +5,13 @@ import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // locales
-import { useLocales } from '@/locales';
+import { useLocales } from 'src/locales';
 // components
-import Label from '@/components/label';
+import Label from 'src/components/label';
 
 // ----------------------------------------------------------------------
 

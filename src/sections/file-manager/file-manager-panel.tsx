@@ -5,9 +5,9 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Stack, { StackProps } from '@mui/material/Stack';
 // routes
-import { RouterLink } from '@/routes/components';
+import { RouterLink } from 'src/routes/components';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

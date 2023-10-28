@@ -1,5 +1,5 @@
 // components
-import PricingView from '@/sections/pricing/view';
+import PricingView from 'src/sections/pricing/view';
 
 // ----------------------------------------------------------------------
 

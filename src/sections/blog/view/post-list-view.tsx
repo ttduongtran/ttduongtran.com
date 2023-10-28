@@ -9,21 +9,21 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // hooks
-import { useDebounce } from '@/hooks/use-debounce';
+import { useDebounce } from 'src/hooks/use-debounce';
 // _mock
-import { POST_SORT_OPTIONS } from '@/_mock';
+import { POST_SORT_OPTIONS } from 'src/_mock';
 // api
-import { useGetPosts, useSearchPosts } from '@/api/blog';
+import { useGetPosts, useSearchPosts } from 'src/api/blog';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 // types
-import { IPostItem, IPostFilters, IPostFilterValue } from '@/types/blog';
+import { IPostItem, IPostFilters, IPostFilterValue } from 'src/types/blog';
 //
 import PostSort from '../post-sort';
 import PostSearch from '../post-search';

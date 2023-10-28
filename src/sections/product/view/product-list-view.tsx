@@ -12,17 +12,17 @@ import TableBody from '@mui/material/TableBody';
 import IconButton from '@mui/material/IconButton';
 import TableContainer from '@mui/material/TableContainer';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
+import { RouterLink } from 'src/routes/components';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // _mock
-import { PRODUCT_STOCK_OPTIONS } from '@/_mock';
+import { PRODUCT_STOCK_OPTIONS } from 'src/_mock';
 // api
-import { useGetProducts } from '@/api/product';
+import { useGetProducts } from 'src/api/product';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 import {
   useTable,
   getComparator,
@@ -33,13 +33,13 @@ import {
   TableHeadCustom,
   TableSelectedAction,
   TablePaginationCustom,
-} from '@/components/table';
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
-import { ConfirmDialog } from '@/components/custom-dialog';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+} from 'src/components/table';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 // types
-import { IProductItem, IProductTableFilters, IProductTableFilterValue } from '@/types/product';
+import { IProductItem, IProductTableFilters, IProductTableFilterValue } from 'src/types/product';
 //
 import ProductTableRow from '../product-table-row';
 import ProductTableToolbar from '../product-table-toolbar';

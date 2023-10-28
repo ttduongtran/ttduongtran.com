@@ -5,14 +5,14 @@ import Stack from '@mui/material/Stack';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 // theme
-import { bgBlur } from '@/theme/css';
+import { bgBlur } from 'src/theme/css';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // hooks
-import { useOffSetTop } from '@/hooks/use-off-set-top';
+import { useOffSetTop } from 'src/hooks/use-off-set-top';
 // components
-import Logo from '@/components/logo';
-import { RouterLink } from '@/routes/components';
+import Logo from 'src/components/logo';
+import { RouterLink } from 'src/routes/components';
 //
 import { HEADER } from '../config-layout';
 import HeaderShadow from './header-shadow';

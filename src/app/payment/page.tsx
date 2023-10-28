@@ -1,5 +1,5 @@
 // sections
-import { PaymentView } from '@/sections/payment/view';
+import { PaymentView } from 'src/sections/payment/view';
 
 // ----------------------------------------------------------------------
 

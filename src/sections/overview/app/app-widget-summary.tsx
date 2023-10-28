@@ -6,10 +6,10 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Card, { CardProps } from '@mui/material/Card';
 // utils
-import { fNumber, fPercent } from '@/utils/format-number';
+import { fNumber, fPercent } from 'src/utils/format-number';
 // components
-import Iconify from '@/components/iconify';
-import Chart from '@/components/chart';
+import Iconify from 'src/components/iconify';
+import Chart from 'src/components/chart';
 
 // ----------------------------------------------------------------------
 

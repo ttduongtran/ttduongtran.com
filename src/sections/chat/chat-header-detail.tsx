@@ -6,11 +6,11 @@ import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 // utils
-import { fToNow } from '@/utils/format-time';
+import { fToNow } from 'src/utils/format-time';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 // sections
-import ProgressView from '@/sections/_examples/mui/progress-view';
+import ProgressView from 'src/sections/_examples/mui/progress-view';
 
 // ----------------------------------------------------------------------
 

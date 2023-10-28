@@ -8,13 +8,13 @@ import Typography from '@mui/material/Typography';
 import Paper, { PaperProps } from '@mui/material/Paper';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // theme
-import { bgBlur } from '@/theme/css';
+import { bgBlur } from 'src/theme/css';
 // types
-import { IKanbanTask } from '@/types/kanban';
+import { IKanbanTask } from 'src/types/kanban';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import KanbanDetails from './kanban-details';
 

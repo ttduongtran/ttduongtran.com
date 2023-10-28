@@ -5,18 +5,18 @@ import Stack from '@mui/material/Stack';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // utils
-import uuidv4 from '@/utils/uuidv4';
+import uuidv4 from 'src/utils/uuidv4';
 // api
-import { sendMessage, createConversation } from '@/api/chat';
+import { sendMessage, createConversation } from 'src/api/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 
 // ----------------------------------------------------------------------
 

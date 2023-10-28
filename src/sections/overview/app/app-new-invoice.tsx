@@ -12,13 +12,13 @@ import IconButton from '@mui/material/IconButton';
 import Card, { CardProps } from '@mui/material/Card';
 import TableContainer from '@mui/material/TableContainer';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
-import { TableHeadCustom } from '@/components/table';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
+import { TableHeadCustom } from 'src/components/table';
 
 // ----------------------------------------------------------------------
 

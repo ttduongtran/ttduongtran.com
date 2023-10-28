@@ -5,9 +5,9 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import CardHeader from '@mui/material/CardHeader';
 // types
-import { IAddressItem } from '@/types/address';
+import { IAddressItem } from 'src/types/address';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

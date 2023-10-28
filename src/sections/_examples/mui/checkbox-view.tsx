@@ -10,10 +10,10 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ComponentBlock from '../component-block';
 

@@ -1,5 +1,5 @@
 // sections
-import { ClassicLoginView } from '@/sections/auth-demo/classic';
+import { ClassicLoginView } from 'src/sections/auth-demo/classic';
 
 // ----------------------------------------------------------------------
 

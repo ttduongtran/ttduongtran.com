@@ -11,14 +11,14 @@ import Typography from '@mui/material/Typography';
 import { inputBaseClasses } from '@mui/material/InputBase';
 import InputAdornment from '@mui/material/InputAdornment';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // _mock
-import { INVOICE_SERVICE_OPTIONS } from '@/_mock';
+import { INVOICE_SERVICE_OPTIONS } from 'src/_mock';
 // types
-import { IInvoiceItem } from '@/types/invoice';
+import { IInvoiceItem } from 'src/types/invoice';
 // components
-import Iconify from '@/components/iconify';
-import { RHFSelect, RHFTextField } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import { RHFSelect, RHFTextField } from 'src/components/hook-form';
 
 // ----------------------------------------------------------------------
 

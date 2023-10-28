@@ -13,8 +13,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 // routes
-import { usePathname } from '@/routes/hooks';
-import { RouterLink } from '@/routes/components';
+import { usePathname } from 'src/routes/hooks';
+import { RouterLink } from 'src/routes/components';
 //
 import Logo from '../logo';
 import Iconify from '../iconify';

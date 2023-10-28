@@ -6,12 +6,12 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import { MotionViewport, varFade } from '@/components/animate';
+import Iconify from 'src/components/iconify';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

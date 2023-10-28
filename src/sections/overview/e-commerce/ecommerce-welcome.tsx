@@ -4,7 +4,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { CardProps } from '@mui/material/Card';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 
 // ----------------------------------------------------------------------
 

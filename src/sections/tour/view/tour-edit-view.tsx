@@ -3,12 +3,12 @@
 // @mui
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _tours } from '@/_mock';
+import { _tours } from 'src/_mock';
 // components
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import TourNewEditForm from '../tour-new-edit-form';
 

@@ -6,13 +6,13 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Drawer from '@mui/material/Drawer';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useResponsive } from 'src/hooks/use-responsive';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // components
-import Logo from '@/components/logo';
-import Scrollbar from '@/components/scrollbar';
-import { usePathname } from '@/routes/hooks';
-import { NavSectionVertical } from '@/components/nav-section';
+import Logo from 'src/components/logo';
+import Scrollbar from 'src/components/scrollbar';
+import { usePathname } from 'src/routes/hooks';
+import { NavSectionVertical } from 'src/components/nav-section';
 //
 import { NAV } from '../config-layout';
 import { useNavData } from './config-navigation';

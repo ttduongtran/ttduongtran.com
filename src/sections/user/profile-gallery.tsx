@@ -6,13 +6,13 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fDate } from '@/utils/format-time';
+import { fDate } from 'src/utils/format-time';
 // types
-import { IUserProfileGallery } from '@/types/user';
+import { IUserProfileGallery } from 'src/types/user';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import Lightbox, { useLightBox } from '@/components/lightbox';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import Lightbox, { useLightBox } from 'src/components/lightbox';
 
 // ----------------------------------------------------------------------
 

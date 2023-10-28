@@ -6,17 +6,17 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter, useSearchParams } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 // api
-import { useGetLabels, useGetMails, useGetMail } from '@/api/mail';
+import { useGetLabels, useGetMails, useGetMail } from 'src/api/mail';
 // components
-import EmptyContent from '@/components/empty-content';
-import { LoadingScreen } from '@/components/loading-screen';
-import { useSettingsContext } from '@/components/settings';
+import EmptyContent from 'src/components/empty-content';
+import { LoadingScreen } from 'src/components/loading-screen';
+import { useSettingsContext } from 'src/components/settings';
 //
 import MailNav from '../mail-nav';
 import MailList from '../mail-list';

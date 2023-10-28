@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react';
 // types
-import { IChatMessage } from '@/types/chat';
+import { IChatMessage } from 'src/types/chat';
 
 // ----------------------------------------------------------------------
 

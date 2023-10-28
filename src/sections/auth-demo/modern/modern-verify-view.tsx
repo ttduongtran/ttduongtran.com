@@ -9,13 +9,13 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // components
-import Iconify from '@/components/iconify';
-import FormProvider, { RHFCode, RHFTextField } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import FormProvider, { RHFCode, RHFTextField } from 'src/components/hook-form';
 // assets
-import { EmailInboxIcon } from '@/assets/icons';
+import { EmailInboxIcon } from 'src/assets/icons';
 
 // ----------------------------------------------------------------------
 

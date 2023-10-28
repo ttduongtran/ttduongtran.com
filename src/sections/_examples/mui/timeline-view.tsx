@@ -15,10 +15,10 @@ import Paper from '@mui/material/Paper';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ComponentBlock from '../component-block';
 

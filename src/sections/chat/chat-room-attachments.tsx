@@ -4,15 +4,15 @@ import Stack from '@mui/material/Stack';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // utils
-import { fDateTime } from '@/utils/format-time';
+import { fDateTime } from 'src/utils/format-time';
 // types
-import { IChatAttachment } from '@/types/chat';
+import { IChatAttachment } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
-import FileThumbnail from '@/components/file-thumbnail';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import FileThumbnail from 'src/components/file-thumbnail';
 
 // ----------------------------------------------------------------------
 

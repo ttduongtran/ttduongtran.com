@@ -1,5 +1,5 @@
 // sections
-import AutocompleteView from '@/sections/_examples/mui/autocomplete-view';
+import AutocompleteView from 'src/sections/_examples/mui/autocomplete-view';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,10 @@
-/* eslint-disable jsx-a11y/alt-text */
 import { useMemo } from 'react';
 import { Page, View, Text, Image, Document, Font, StyleSheet } from '@react-pdf/renderer';
 // utils
-import { fDate } from '@/utils/format-time';
-import { fCurrency } from '@/utils/format-number';
+import { fDate } from 'src/utils/format-time';
+import { fCurrency } from 'src/utils/format-number';
 // types
-import { IInvoice } from '@/types/invoice';
+import { IInvoice } from 'src/types/invoice';
 
 // ----------------------------------------------------------------------
 

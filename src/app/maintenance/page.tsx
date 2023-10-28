@@ -1,5 +1,5 @@
 // sections
-import MaintenanceView from '@/sections/maintenance/view';
+import MaintenanceView from 'src/sections/maintenance/view';
 
 // ----------------------------------------------------------------------
 

@@ -8,11 +8,11 @@ import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import ListItemButton, { listItemButtonClasses } from '@mui/material/ListItemButton';
 // types
-import { IAddressItem } from '@/types/address';
+import { IAddressItem } from 'src/types/address';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import SearchNotFound from '@/components/search-not-found';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import SearchNotFound from 'src/components/search-not-found';
 
 // ----------------------------------------------------------------------
 

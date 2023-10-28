@@ -9,10 +9,10 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Autocomplete from '@mui/material/Autocomplete';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
-import SearchNotFound from '@/components/search-not-found';
+import Iconify from 'src/components/iconify';
+import SearchNotFound from 'src/components/search-not-found';
 //
 
 // ----------------------------------------------------------------------

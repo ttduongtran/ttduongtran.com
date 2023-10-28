@@ -2,14 +2,14 @@ import { useMemo } from 'react';
 import keyBy from 'lodash/keyBy';
 import useSWR, { mutate } from 'swr';
 // utils
-import axios, { endpoints, fetcher } from '@/utils/axios';
+import axios, { endpoints, fetcher } from 'src/utils/axios';
 // types
 import {
   IChatMessage,
   IChatParticipant,
   IChatConversations,
   IChatConversation,
-} from '@/types/chat';
+} from 'src/types/chat';
 
 // ----------------------------------------------------------------------
 

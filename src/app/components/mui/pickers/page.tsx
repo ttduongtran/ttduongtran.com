@@ -1,5 +1,5 @@
 // sections
-import PickerView from '@/sections/_examples/mui/picker-view';
+import PickerView from 'src/sections/_examples/mui/picker-view';
 
 // ----------------------------------------------------------------------
 

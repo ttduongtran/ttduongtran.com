@@ -1,5 +1,5 @@
 // sections
-import AccordionView from '@/sections/_examples/mui/accordion-view';
+import AccordionView from 'src/sections/_examples/mui/accordion-view';
 
 // ----------------------------------------------------------------------
 

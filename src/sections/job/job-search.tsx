@@ -7,11 +7,11 @@ import Typography from '@mui/material/Typography';
 import Autocomplete from '@mui/material/Autocomplete';
 import InputAdornment from '@mui/material/InputAdornment';
 // types
-import { IJobItem } from '@/types/job';
+import { IJobItem } from 'src/types/job';
 // components
-import Iconify from '@/components/iconify';
-import { useRouter } from '@/routes/hooks';
-import SearchNotFound from '@/components/search-not-found';
+import Iconify from 'src/components/iconify';
+import { useRouter } from 'src/routes/hooks';
+import SearchNotFound from 'src/components/search-not-found';
 
 // ----------------------------------------------------------------------
 

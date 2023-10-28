@@ -9,20 +9,20 @@ import Grid from '@mui/material/Unstable_Grid2';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
-import { usePathname } from '@/routes/hooks';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { usePathname } from 'src/routes/hooks';
+import { RouterLink } from 'src/routes/components';
 // _mock
-import { _socials } from '@/_mock';
+import { _socials } from 'src/_mock';
 // components
-import Logo from '@/components/logo';
-import Iconify from '@/components/iconify';
+import Logo from 'src/components/logo';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 
 const LINKS = [
   {
-    headline: 'DuongTT',
+    headline: 'Minimal',
     children: [
       { name: 'About us', href: paths.about },
       { name: 'Contact us', href: paths.contact },
@@ -38,7 +38,7 @@ const LINKS = [
   },
   {
     headline: 'Contact',
-    children: [{ name: 'ttduongtran@gmail.com', href: '#' }],
+    children: [{ name: 'support@minimals.cc', href: '#' }],
   },
 ];
 
@@ -65,7 +65,7 @@ export default function Footer() {
         <Typography variant="caption" component="div">
           © All rights reserved
           <br /> made by
-          <Link href="#!"> ttduongtran.com </Link>
+          <Link href="https://minimals.cc/"> minimals.cc </Link>
         </Typography>
       </Container>
     </Box>
@@ -105,8 +105,8 @@ export default function Footer() {
                 mx: { xs: 'auto', md: 'unset' },
               }}
             >
-              DuongTT is a website that provides information about the development of the world and
-              the country, as well as the development of technology, science, and culture.
+              The starting point for your next project with Minimal UI Kit, built on the newest
+              version of Material-UI ©, ready to be customized to your style.
             </Typography>
 
             <Stack

@@ -8,10 +8,10 @@ import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
 // types
-import { IOrderTableFilters, IOrderTableFilterValue } from '@/types/order';
+import { IOrderTableFilters, IOrderTableFilterValue } from 'src/types/order';
 // components
-import Iconify from '@/components/iconify';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
+import Iconify from 'src/components/iconify';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

@@ -12,16 +12,16 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 // _mock
-import { PRODUCT_PUBLISH_OPTIONS } from '@/_mock';
+import { PRODUCT_PUBLISH_OPTIONS } from 'src/_mock';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // api
-import { useGetProduct } from '@/api/product';
+import { useGetProduct } from 'src/api/product';
 // components
-import Iconify from '@/components/iconify';
-import EmptyContent from '@/components/empty-content';
-import { useSettingsContext } from '@/components/settings';
+import Iconify from 'src/components/iconify';
+import EmptyContent from 'src/components/empty-content';
+import { useSettingsContext } from 'src/components/settings';
 //
 import { ProductDetailsSkeleton } from '../product-skeleton';
 import ProductDetailsReview from '../product-details-review';

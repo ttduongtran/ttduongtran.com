@@ -8,13 +8,13 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import LinearProgress from '@mui/material/LinearProgress';
 // utils
-import { fShortenNumber } from '@/utils/format-number';
+import { fShortenNumber } from 'src/utils/format-number';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 // types
-import { IProductReview } from '@/types/product';
+import { IProductReview } from 'src/types/product';
 //
 import ProductReviewList from './product-review-list';
 import ProductReviewNewForm from './product-review-new-form';

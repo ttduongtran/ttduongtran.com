@@ -10,15 +10,15 @@ import AvatarGroup from '@mui/material/AvatarGroup';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
+import { useResponsive } from 'src/hooks/use-responsive';
 // api
-import { clickConversation } from '@/api/chat';
+import { clickConversation } from 'src/api/chat';
 // types
-import { IChatConversation } from '@/types/chat';
+import { IChatConversation } from 'src/types/chat';
 //
 import { useGetNavItem } from './hooks';
 

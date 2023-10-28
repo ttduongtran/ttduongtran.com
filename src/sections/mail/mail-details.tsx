@@ -14,20 +14,20 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fDateTime } from '@/utils/format-time';
+import { fDateTime } from 'src/utils/format-time';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import Label from '@/components/label';
-import Editor from '@/components/editor';
-import Iconify from '@/components/iconify';
-import Markdown from '@/components/markdown';
-import Scrollbar from '@/components/scrollbar';
-import TextMaxLine from '@/components/text-max-line';
-import EmptyContent from '@/components/empty-content';
-import FileThumbnail from '@/components/file-thumbnail';
+import Label from 'src/components/label';
+import Editor from 'src/components/editor';
+import Iconify from 'src/components/iconify';
+import Markdown from 'src/components/markdown';
+import Scrollbar from 'src/components/scrollbar';
+import TextMaxLine from 'src/components/text-max-line';
+import EmptyContent from 'src/components/empty-content';
+import FileThumbnail from 'src/components/file-thumbnail';
 // types
-import { IMail, IMailLabel } from '@/types/mail';
+import { IMail, IMailLabel } from 'src/types/mail';
 
 // ----------------------------------------------------------------------
 

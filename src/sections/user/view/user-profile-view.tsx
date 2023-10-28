@@ -7,15 +7,15 @@ import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
 import Tabs, { tabsClasses } from '@mui/material/Tabs';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // _mock
-import { _userAbout, _userFeeds, _userFriends, _userGallery, _userFollowers } from '@/_mock';
+import { _userAbout, _userFeeds, _userFriends, _userGallery, _userFollowers } from 'src/_mock';
 // components
-import Iconify from '@/components/iconify';
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ProfileHome from '../profile-home';
 import ProfileCover from '../profile-cover';

@@ -17,7 +17,7 @@ import {
 } from 'firebase/auth';
 import { getFirestore, collection, doc, getDoc, setDoc } from 'firebase/firestore';
 // config
-import { FIREBASE_API } from '@/config-global';
+import { FIREBASE_API } from 'src/config-global';
 //
 import { AuthContext } from './auth-context';
 import { ActionMapType, AuthStateType, AuthUserType } from '../../types';

@@ -16,11 +16,11 @@ import Typography from '@mui/material/Typography';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import InputBase, { inputBaseClasses } from '@mui/material/InputBase';
 // types
-import { IProductFilters, IProductFilterValue } from '@/types/product';
+import { IProductFilters, IProductFilterValue } from 'src/types/product';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
-import { ColorPicker } from '@/components/color-utils';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import { ColorPicker } from 'src/components/color-utils';
 
 // ----------------------------------------------------------------------
 

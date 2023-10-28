@@ -12,19 +12,19 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
-import { useRouter, useSearchParams } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useCountdownSeconds } from '@/hooks/use-countdown';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useCountdownSeconds } from 'src/hooks/use-countdown';
 // auth
-import { useAuthContext } from '@/auth/hooks';
+import { useAuthContext } from 'src/auth/hooks';
 // assets
-import { SentIcon } from '@/assets/icons';
+import { SentIcon } from 'src/assets/icons';
 // components
-import Iconify from '@/components/iconify';
-import FormProvider, { RHFTextField, RHFCode } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import FormProvider, { RHFTextField, RHFCode } from 'src/components/hook-form';
 
 // ----------------------------------------------------------------------
 

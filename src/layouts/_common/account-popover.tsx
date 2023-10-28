@@ -9,16 +9,16 @@ import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // auth
-import { useAuthContext } from '@/auth/hooks';
+import { useAuthContext } from 'src/auth/hooks';
 // components
-import { varHover } from '@/components/animate';
-import { useSnackbar } from '@/components/snackbar';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
+import { varHover } from 'src/components/animate';
+import { useSnackbar } from 'src/components/snackbar';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

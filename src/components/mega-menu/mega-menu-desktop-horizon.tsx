@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 // routes
-import { RouterLink } from '@/routes/components';
+import { RouterLink } from 'src/routes/components';
 //
 import Iconify from '../iconify';
 //

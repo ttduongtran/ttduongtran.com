@@ -1,5 +1,5 @@
 // sections
-import CheckboxView from '@/sections/_examples/mui/checkbox-view';
+import CheckboxView from 'src/sections/_examples/mui/checkbox-view';
 
 // ----------------------------------------------------------------------
 

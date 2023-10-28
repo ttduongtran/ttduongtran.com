@@ -2,10 +2,10 @@
 import Box from '@mui/material/Box';
 import Badge from '@mui/material/Badge';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import { RouterLink } from '@/routes/components';
+import Iconify from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
 
 // ----------------------------------------------------------------------
 

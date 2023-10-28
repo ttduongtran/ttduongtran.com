@@ -18,19 +18,19 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import DialogTitle from '@mui/material/DialogTitle';
 // utils
-import { fTimestamp } from '@/utils/format-time';
+import { fTimestamp } from 'src/utils/format-time';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // _mock
-import { CALENDAR_COLOR_OPTIONS } from '@/_mock/_calendar';
+import { CALENDAR_COLOR_OPTIONS } from 'src/_mock/_calendar';
 // api
-import { useGetEvents, updateEvent } from '@/api/calendar';
+import { useGetEvents, updateEvent } from 'src/api/calendar';
 // components
-import Iconify from '@/components/iconify';
-import { useSettingsContext } from '@/components/settings';
+import Iconify from 'src/components/iconify';
+import { useSettingsContext } from 'src/components/settings';
 // types
-import { ICalendarFilters, ICalendarFilterValue, ICalendarEvent } from '@/types/calendar';
+import { ICalendarFilters, ICalendarFilterValue, ICalendarEvent } from 'src/types/calendar';
 //
 import { useCalendar, useEvent } from '../hooks';
 import { StyledCalendar } from '../styles';

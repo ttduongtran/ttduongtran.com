@@ -20,10 +20,10 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemSecondaryAction from '@mui/material/ListItemSecondaryAction';
 import ListItemButton, { ListItemButtonProps } from '@mui/material/ListItemButton';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ComponentBlock from '../component-block';
 

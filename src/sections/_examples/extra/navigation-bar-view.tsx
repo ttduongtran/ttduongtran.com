@@ -20,17 +20,17 @@ import Typography from '@mui/material/Typography';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import Label from '@/components/label';
+import Iconify from 'src/components/iconify';
+import Label from 'src/components/label';
 import {
   NavSectionMini,
   NavConfigProps,
   NavSectionVertical,
   NavSectionHorizontal,
-} from '@/components/nav-section';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+} from 'src/components/nav-section';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 
 // ----------------------------------------------------------------------
 

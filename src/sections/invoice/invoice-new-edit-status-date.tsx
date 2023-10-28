@@ -4,7 +4,7 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import Stack from '@mui/material/Stack';
 import MenuItem from '@mui/material/MenuItem';
 // components
-import { RHFSelect, RHFTextField } from '@/components/hook-form';
+import { RHFSelect, RHFTextField } from 'src/components/hook-form';
 
 // ----------------------------------------------------------------------
 

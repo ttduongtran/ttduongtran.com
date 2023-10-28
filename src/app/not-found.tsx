@@ -1,5 +1,5 @@
 // sections
-import { NotFoundView } from '@/sections/error';
+import { NotFoundView } from 'src/sections/error';
 
 // ----------------------------------------------------------------------
 

@@ -4,9 +4,9 @@ import { styled, useTheme } from '@mui/material/styles';
 import CardHeader from '@mui/material/CardHeader';
 import Card, { CardProps } from '@mui/material/Card';
 // utils
-import { fNumber } from '@/utils/format-number';
+import { fNumber } from 'src/utils/format-number';
 // components
-import Chart, { useChart } from '@/components/chart';
+import Chart, { useChart } from 'src/components/chart';
 
 // ----------------------------------------------------------------------
 

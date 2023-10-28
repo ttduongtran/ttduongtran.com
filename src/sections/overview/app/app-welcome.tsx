@@ -3,7 +3,7 @@ import { useTheme, alpha } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Stack, { StackProps } from '@mui/material/Stack';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 
 // ----------------------------------------------------------------------
 

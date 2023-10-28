@@ -11,14 +11,14 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Stack, { StackProps } from '@mui/material/Stack';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _homePlans } from '@/_mock';
+import { _homePlans } from 'src/_mock';
 // components
-import Iconify from '@/components/iconify';
-import { varFade, MotionViewport } from '@/components/animate';
+import Iconify from 'src/components/iconify';
+import { varFade, MotionViewport } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 
@@ -127,7 +127,7 @@ export default function HomePricing() {
               color="inherit"
               size="large"
               variant="contained"
-              href="mailto:ttduongtran@gmail.com?subject=[Feedback] from Customer"
+              href="mailto:support@minimals.cc?subject=[Feedback] from Customer"
             >
               Contact us
             </Button>

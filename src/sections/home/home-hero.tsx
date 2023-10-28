@@ -11,18 +11,18 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // theme
-import { secondaryFont } from '@/theme/typography';
-import { textGradient, bgGradient, bgBlur } from '@/theme/css';
+import { secondaryFont } from 'src/theme/typography';
+import { textGradient, bgGradient, bgBlur } from 'src/theme/css';
 // layouts
-import { HEADER } from '@/layouts/config-layout';
+import { HEADER } from 'src/layouts/config-layout';
 // components
-import Iconify from '@/components/iconify';
-import { RouterLink } from '@/routes/components';
-import { MotionContainer, varFade } from '@/components/animate';
+import Iconify from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+import { MotionContainer, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

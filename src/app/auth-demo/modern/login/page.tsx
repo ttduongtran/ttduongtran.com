@@ -1,5 +1,5 @@
 // sections
-import { ModernLoginView } from '@/sections/auth-demo/modern';
+import { ModernLoginView } from 'src/sections/auth-demo/modern';
 
 // ----------------------------------------------------------------------
 

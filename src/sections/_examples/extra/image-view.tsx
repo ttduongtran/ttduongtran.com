@@ -8,12 +8,12 @@ import Container from '@mui/material/Container';
 import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _mock } from '@/_mock';
+import { _mock } from 'src/_mock';
 // components
-import Image from '@/components/image';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Image from 'src/components/image';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 
 // ----------------------------------------------------------------------
 

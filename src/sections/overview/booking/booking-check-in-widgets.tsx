@@ -6,11 +6,11 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import Card, { CardProps } from '@mui/material/Card';
 // hooks
-import { fNumber } from '@/utils/format-number';
-import { useResponsive } from '@/hooks/use-responsive';
+import { fNumber } from 'src/utils/format-number';
+import { useResponsive } from 'src/hooks/use-responsive';
 // utils
 // components
-import Chart, { useChart } from '@/components/chart';
+import Chart, { useChart } from 'src/components/chart';
 
 // ----------------------------------------------------------------------
 

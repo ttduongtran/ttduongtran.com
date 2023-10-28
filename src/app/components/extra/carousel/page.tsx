@@ -1,5 +1,5 @@
 // sections
-import CarouselView from '@/sections/_examples/extra/carousel-view';
+import CarouselView from 'src/sections/_examples/extra/carousel-view';
 
 // ----------------------------------------------------------------------
 

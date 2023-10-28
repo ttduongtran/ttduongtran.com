@@ -14,13 +14,13 @@ import InputBase from '@mui/material/InputBase';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardHeader from '@mui/material/CardHeader';
 // _mock
-import { _socials } from '@/_mock';
+import { _socials } from 'src/_mock';
 // utils
-import { fNumber } from '@/utils/format-number';
+import { fNumber } from 'src/utils/format-number';
 // types
-import { IUserProfile, IUserProfilePost } from '@/types/user';
+import { IUserProfile, IUserProfilePost } from 'src/types/user';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import ProfilePostItem from './profile-post-item';
 

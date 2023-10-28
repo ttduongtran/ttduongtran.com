@@ -11,15 +11,15 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import Iconify from '@/components/iconify';
-import { RouterLink } from '@/routes/components';
-import FormProvider, { RHFTextField, RHFCode } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+import FormProvider, { RHFTextField, RHFCode } from 'src/components/hook-form';
 // assets
-import { SentIcon } from '@/assets/icons';
+import { SentIcon } from 'src/assets/icons';
 
 // ----------------------------------------------------------------------
 

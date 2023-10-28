@@ -6,13 +6,13 @@ import Stack from '@mui/material/Stack';
 import { CardProps } from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 // utils
-import { fCurrency, fPercent } from '@/utils/format-number';
+import { fCurrency, fPercent } from 'src/utils/format-number';
 // theme
-import { ColorSchema } from '@/theme/palette';
-import { bgGradient } from '@/theme/css';
+import { ColorSchema } from 'src/theme/palette';
+import { bgGradient } from 'src/theme/css';
 // components
-import Iconify from '@/components/iconify';
-import Chart, { useChart } from '@/components/chart';
+import Iconify from 'src/components/iconify';
+import Chart, { useChart } from 'src/components/chart';
 
 // ----------------------------------------------------------------------
 

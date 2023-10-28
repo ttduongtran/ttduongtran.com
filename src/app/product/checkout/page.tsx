@@ -1,5 +1,5 @@
 // sections
-import { CheckoutView } from '@/sections/checkout/view';
+import { CheckoutView } from 'src/sections/checkout/view';
 
 // ----------------------------------------------------------------------
 

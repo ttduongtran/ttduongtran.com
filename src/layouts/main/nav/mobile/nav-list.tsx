@@ -4,10 +4,10 @@ import { listClasses } from '@mui/material/List';
 import { listItemTextClasses } from '@mui/material/ListItemText';
 import { listItemButtonClasses } from '@mui/material/ListItemButton';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import { NavSectionVertical } from '@/components/nav-section';
-import { usePathname } from '@/routes/hooks';
+import { NavSectionVertical } from 'src/components/nav-section';
+import { usePathname } from 'src/routes/hooks';
 //
 import { NavItemProps } from '../types';
 import NavItem from './nav-item';

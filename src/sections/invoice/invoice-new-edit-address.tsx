@@ -6,12 +6,12 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // _mock
-import { _addressBooks } from '@/_mock';
+import { _addressBooks } from 'src/_mock';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import { AddressListDialog } from '../address';
 

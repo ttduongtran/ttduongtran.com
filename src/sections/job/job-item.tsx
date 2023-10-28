@@ -10,16 +10,16 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // types
-import { IJobItem } from '@/types/job';
+import { IJobItem } from 'src/types/job';
 // utils
-import { fDate } from '@/utils/format-time';
-import { fCurrency } from '@/utils/format-number';
+import { fDate } from 'src/utils/format-time';
+import { fCurrency } from 'src/utils/format-number';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Iconify from '@/components/iconify';
-import { RouterLink } from '@/routes/components';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
+import Iconify from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

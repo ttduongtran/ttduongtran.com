@@ -2,9 +2,9 @@ import useSWR from 'swr';
 import keyBy from 'lodash/keyBy';
 import { useMemo } from 'react';
 // utils
-import { fetcher, endpoints } from '@/utils/axios';
+import { fetcher, endpoints } from 'src/utils/axios';
 // types
-import { IMail, IMails, IMailLabel } from '@/types/mail';
+import { IMail, IMails, IMailLabel } from 'src/types/mail';
 
 // ----------------------------------------------------------------------
 

@@ -7,18 +7,18 @@ import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // utils
-import { fDateTime } from '@/utils/format-time';
-import { fCurrency } from '@/utils/format-number';
+import { fDateTime } from 'src/utils/format-time';
+import { fCurrency } from 'src/utils/format-number';
 // types
-import { ITourItem } from '@/types/tour';
+import { ITourItem } from 'src/types/tour';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
-import { shortDateLabel } from '@/components/custom-date-range-picker';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
+import { shortDateLabel } from 'src/components/custom-date-range-picker';
 
 // ----------------------------------------------------------------------
 

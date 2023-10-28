@@ -10,12 +10,12 @@ import Typography from '@mui/material/Typography';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // auth
-import { RoleBasedGuard } from '@/auth/guard';
+import { RoleBasedGuard } from 'src/auth/guard';
 // components
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 
 // ----------------------------------------------------------------------
 

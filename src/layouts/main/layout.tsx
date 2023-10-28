@@ -3,7 +3,7 @@
 // @mui
 import Box from '@mui/material/Box';
 // routes
-import { usePathname } from '@/routes/hooks';
+import { usePathname } from 'src/routes/hooks';
 //
 import Footer from './footer';
 import Header from './header';

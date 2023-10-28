@@ -15,26 +15,26 @@ import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // assets
-import { countries } from '@/assets/data';
+import { countries } from 'src/assets/data';
 // _mock
-import { _tourGuides, TOUR_SERVICE_OPTIONS, _tags } from '@/_mock';
+import { _tourGuides, TOUR_SERVICE_OPTIONS, _tags } from 'src/_mock';
 // components
-import Iconify from '@/components/iconify';
-import { useSnackbar } from '@/components/snackbar';
+import Iconify from 'src/components/iconify';
+import { useSnackbar } from 'src/components/snackbar';
 import FormProvider, {
   RHFEditor,
   RHFUpload,
   RHFTextField,
   RHFAutocomplete,
   RHFMultiCheckbox,
-} from '@/components/hook-form';
+} from 'src/components/hook-form';
 // types
-import { ITourGuide, ITourItem } from '@/types/tour';
+import { ITourGuide, ITourItem } from 'src/types/tour';
 
 // ----------------------------------------------------------------------
 

@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
 import Box, { BoxProps } from '@mui/material/Box';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 
 // ----------------------------------------------------------------------
 

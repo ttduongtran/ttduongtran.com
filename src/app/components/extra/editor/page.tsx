@@ -1,5 +1,5 @@
 // sections
-import EditorView from '@/sections/_examples/extra/editor-view';
+import EditorView from 'src/sections/_examples/extra/editor-view';
 
 // ----------------------------------------------------------------------
 

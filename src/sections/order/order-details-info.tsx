@@ -15,9 +15,9 @@ import {
   IOrderDelivery,
   IOrderPayment,
   IOrderShippingAddress,
-} from '@/types/order';
+} from 'src/types/order';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

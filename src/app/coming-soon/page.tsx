@@ -1,5 +1,5 @@
 // sections
-import ComingSoonView from '@/sections/coming-soon/view';
+import ComingSoonView from 'src/sections/coming-soon/view';
 
 // ----------------------------------------------------------------------
 

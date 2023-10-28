@@ -1,9 +1,9 @@
 'use client';
 
 // auth
-import { GuestGuard } from '@/auth/guard';
+import { GuestGuard } from 'src/auth/guard';
 // components
-import CompactLayout from '@/layouts/compact';
+import CompactLayout from 'src/layouts/compact';
 
 // ----------------------------------------------------------------------
 

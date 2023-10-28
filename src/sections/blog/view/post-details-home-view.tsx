@@ -12,17 +12,17 @@ import Typography from '@mui/material/Typography';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // utils
-import { fShortenNumber } from '@/utils/format-number';
+import { fShortenNumber } from 'src/utils/format-number';
 // api
-import { useGetPost, useGetLatestPosts } from '@/api/blog';
+import { useGetPost, useGetLatestPosts } from 'src/api/blog';
 // components
-import Iconify from '@/components/iconify';
-import Markdown from '@/components/markdown';
-import EmptyContent from '@/components/empty-content';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import Markdown from 'src/components/markdown';
+import EmptyContent from 'src/components/empty-content';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import PostList from '../post-list';
 import PostCommentList from '../post-comment-list';

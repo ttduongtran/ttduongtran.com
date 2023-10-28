@@ -9,13 +9,13 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import LinearProgress from '@mui/material/LinearProgress';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // utils
-import { fPercent } from '@/utils/format-number';
+import { fPercent } from 'src/utils/format-number';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import { MotionViewport, varFade } from '@/components/animate';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

@@ -9,7 +9,7 @@ import {
   PopupLoginOptions,
 } from '@auth0/auth0-react';
 // config
-import { AUTH0_API } from '@/config-global';
+import { AUTH0_API } from 'src/config-global';
 //
 import { AuthContext } from './auth-context';
 

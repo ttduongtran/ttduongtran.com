@@ -14,15 +14,15 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import TableContainer from '@mui/material/TableContainer';
 // utils
-import { fDate } from '@/utils/format-time';
-import { fCurrency } from '@/utils/format-number';
+import { fDate } from 'src/utils/format-time';
+import { fCurrency } from 'src/utils/format-number';
 // _mock
-import { INVOICE_STATUS_OPTIONS } from '@/_mock';
+import { INVOICE_STATUS_OPTIONS } from 'src/_mock';
 // types
-import { IInvoice } from '@/types/invoice';
+import { IInvoice } from 'src/types/invoice';
 // components
-import Label from '@/components/label';
-import Scrollbar from '@/components/scrollbar';
+import Label from 'src/components/label';
+import Scrollbar from 'src/components/scrollbar';
 //
 import InvoiceToolbar from './invoice-toolbar';
 
@@ -109,7 +109,7 @@ export default function InvoiceDetails({ invoice }: Props) {
       <Grid xs={12} md={3} sx={{ py: 3, textAlign: 'right' }}>
         <Typography variant="subtitle2">Have a Question?</Typography>
 
-        <Typography variant="body2">ttduongtran@gmail.com</Typography>
+        <Typography variant="body2">support@minimals.cc</Typography>
       </Grid>
     </Grid>
   );
@@ -184,7 +184,7 @@ export default function InvoiceDetails({ invoice }: Props) {
           <Box
             component="img"
             alt="logo"
-            src="/logo/logo_single.png"
+            src="/logo/logo_single.svg"
             sx={{ width: 48, height: 48 }}
           />
 

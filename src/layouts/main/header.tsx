@@ -9,15 +9,15 @@ import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Badge, { badgeClasses } from '@mui/material/Badge';
 // hooks
-import { useOffSetTop } from '@/hooks/use-off-set-top';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useOffSetTop } from 'src/hooks/use-off-set-top';
+import { useResponsive } from 'src/hooks/use-responsive';
 // theme
-import { bgBlur } from '@/theme/css';
+import { bgBlur } from 'src/theme/css';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import Logo from '@/components/logo';
-import Label from '@/components/label';
+import Logo from 'src/components/logo';
+import Label from 'src/components/label';
 //
 import { HEADER } from '../config-layout';
 import { navConfig } from './config-navigation';

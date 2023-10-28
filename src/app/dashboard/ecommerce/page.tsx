@@ -1,5 +1,5 @@
 // sections
-import { OverviewEcommerceView } from '@/sections/overview/e-commerce/view';
+import { OverviewEcommerceView } from 'src/sections/overview/e-commerce/view';
 
 // ----------------------------------------------------------------------
 

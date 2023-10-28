@@ -9,9 +9,9 @@ import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // types
-import { IUserProfileFollower } from '@/types/user';
+import { IUserProfileFollower } from 'src/types/user';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

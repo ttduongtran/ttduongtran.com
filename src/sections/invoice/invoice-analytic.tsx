@@ -5,9 +5,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import CircularProgress from '@mui/material/CircularProgress';
 // utils
-import { fShortenNumber, fCurrency } from '@/utils/format-number';
+import { fShortenNumber, fCurrency } from 'src/utils/format-number';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 // sections
-import { ModernVerifyView } from '@/sections/auth-demo/modern';
+import { ModernVerifyView } from 'src/sections/auth-demo/modern';
 
 // ----------------------------------------------------------------------
 

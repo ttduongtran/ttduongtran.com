@@ -1,5 +1,5 @@
 // sections
-import { FaqsView } from '@/sections/faqs/view';
+import { FaqsView } from 'src/sections/faqs/view';
 
 // ----------------------------------------------------------------------
 

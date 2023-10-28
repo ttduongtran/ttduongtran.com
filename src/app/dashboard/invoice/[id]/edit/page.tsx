@@ -1,7 +1,7 @@
 // _mock
-import { _invoices } from '@/_mock/_invoice';
+import { _invoices } from 'src/_mock/_invoice';
 // sections
-import { InvoiceEditView } from '@/sections/invoice/view';
+import { InvoiceEditView } from 'src/sections/invoice/view';
 
 // ----------------------------------------------------------------------
 

@@ -4,13 +4,13 @@ import { alpha, useTheme, styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 // components
-import Image from '@/components/image';
-import Lightbox, { useLightBox } from '@/components/lightbox';
-import Carousel, { CarouselArrowIndex, useCarousel } from '@/components/carousel';
+import Image from 'src/components/image';
+import Lightbox, { useLightBox } from 'src/components/lightbox';
+import Carousel, { CarouselArrowIndex, useCarousel } from 'src/components/carousel';
 // types
-import { IProductItem } from '@/types/product';
+import { IProductItem } from 'src/types/product';
 
 // ----------------------------------------------------------------------
 

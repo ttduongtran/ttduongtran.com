@@ -1,7 +1,7 @@
 'use client';
 
 // components
-import MainLayout from '@/layouts/main';
+import MainLayout from 'src/layouts/main';
 
 // ----------------------------------------------------------------------
 

@@ -9,15 +9,15 @@ import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // types
-import { IChatParticipant, IChatConversations } from '@/types/chat';
+import { IChatParticipant, IChatConversations } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
 //
 import { useCollapseNav } from './hooks';
 import ChatNavItem from './chat-nav-item';

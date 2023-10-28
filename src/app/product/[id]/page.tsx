@@ -1,7 +1,7 @@
 // utils
-import axios, { endpoints } from '@/utils/axios';
+import axios, { endpoints } from 'src/utils/axios';
 // sections
-import { ProductShopDetailsView } from '@/sections/product/view';
+import { ProductShopDetailsView } from 'src/sections/product/view';
 
 // ----------------------------------------------------------------------
 

@@ -3,15 +3,15 @@ import { m } from 'framer-motion';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 // _mock
-import { _mock } from '@/_mock';
+import { _mock } from 'src/_mock';
 // components
-import { MotionContainer } from '@/components/animate';
+import { MotionContainer } from 'src/components/animate';
 //
 import getVariant from '../get-variant';
 
 // ----------------------------------------------------------------------
 
-const TEXT = 'DuongTT';
+const TEXT = 'Minimals';
 
 const IMG = [
   _mock.image.cover(2),

@@ -5,14 +5,14 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 // theme
-import { bgBlur } from '@/theme/css';
+import { bgBlur } from 'src/theme/css';
 // hooks
-import { useOffSetTop } from '@/hooks/use-off-set-top';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useOffSetTop } from 'src/hooks/use-off-set-top';
+import { useResponsive } from 'src/hooks/use-responsive';
 // components
-import Logo from '@/components/logo';
-import SvgColor from '@/components/svg-color';
-import { useSettingsContext } from '@/components/settings';
+import Logo from 'src/components/logo';
+import SvgColor from 'src/components/svg-color';
+import { useSettingsContext } from 'src/components/settings';
 //
 import { HEADER, NAV } from '../config-layout';
 import {

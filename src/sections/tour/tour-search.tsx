@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
 // routes
-import { useRouter } from '@/routes/hooks';
+import { useRouter } from 'src/routes/hooks';
 // types
-import { ITourItem } from '@/types/tour';
+import { ITourItem } from 'src/types/tour';
 // components
-import Iconify from '@/components/iconify';
-import SearchNotFound from '@/components/search-not-found';
+import Iconify from 'src/components/iconify';
+import SearchNotFound from 'src/components/search-not-found';
 
 // ----------------------------------------------------------------------
 

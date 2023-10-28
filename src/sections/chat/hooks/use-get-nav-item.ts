@@ -1,5 +1,5 @@
 // types
-import { IChatConversation } from '@/types/chat';
+import { IChatConversation } from 'src/types/chat';
 
 // ----------------------------------------------------------------------
 

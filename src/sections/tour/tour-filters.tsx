@@ -16,10 +16,10 @@ import Typography from '@mui/material/Typography';
 import Autocomplete from '@mui/material/Autocomplete';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // types
-import { ITourFilters, ITourGuide, ITourFilterValue } from '@/types/tour';
+import { ITourFilters, ITourGuide, ITourFilterValue } from 'src/types/tour';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 

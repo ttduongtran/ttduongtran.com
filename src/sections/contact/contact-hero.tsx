@@ -6,9 +6,9 @@ import Box, { BoxProps } from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { alpha, useTheme } from '@mui/material/styles';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 //
-import { MotionContainer, varFade } from '@/components/animate';
+import { MotionContainer, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

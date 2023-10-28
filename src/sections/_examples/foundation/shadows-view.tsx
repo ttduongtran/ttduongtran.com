@@ -8,9 +8,9 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Paper, { PaperProps } from '@mui/material/Paper';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ComponentBlock from '../component-block';
 

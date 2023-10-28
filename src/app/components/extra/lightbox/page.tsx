@@ -1,5 +1,5 @@
 // sections
-import LightboxView from '@/sections/_examples/extra/lightbox-view';
+import LightboxView from 'src/sections/_examples/extra/lightbox-view';
 
 // ----------------------------------------------------------------------
 

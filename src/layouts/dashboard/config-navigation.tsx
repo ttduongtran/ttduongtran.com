@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // locales
-import { useLocales } from '@/locales';
+import { useLocales } from 'src/locales';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import SvgColor from '@/components/svg-color';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import SvgColor from 'src/components/svg-color';
 
 // ----------------------------------------------------------------------
 
@@ -239,7 +239,7 @@ export function useNavData() {
             // roles: ['user'] Only users can see this item.
             // roles: ['admin'] Only admin can see this item.
             // roles: ['admin', 'manager'] Only admin/manager can see this item.
-            // Reference from '@/guards/RoleBasedGuard'.
+            // Reference from 'src/guards/RoleBasedGuard'.
             title: t('item_by_roles'),
             path: paths.dashboard.permission,
             icon: ICONS.lock,

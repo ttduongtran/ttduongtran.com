@@ -5,12 +5,12 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import Collapse from '@mui/material/Collapse';
 // types
-import { IFile } from '@/types/file';
+import { IFile } from 'src/types/file';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import Iconify from '@/components/iconify';
-import { TableProps } from '@/components/table';
+import Iconify from 'src/components/iconify';
+import { TableProps } from 'src/components/table';
 //
 import FileManagerPanel from './file-manager-panel';
 import FileManagerFileItem from './file-manager-file-item';

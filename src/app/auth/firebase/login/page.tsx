@@ -1,5 +1,5 @@
 // sections
-import { FirebaseLoginView } from '@/sections/auth/firebase';
+import { FirebaseLoginView } from 'src/sections/auth/firebase';
 
 // ----------------------------------------------------------------------
 

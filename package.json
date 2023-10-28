@@ -1,22 +1,20 @@
 {
-  "name": "duong-frontsite",
-  "author": "ttduongtran",
+  "name": "ttduongtran.com",
+  "author": "DuongTT",
   "version": "1.0.0",
-  "description": "Next & TypeScript",
+  "description": "This is my personal website",
   "private": true,
   "scripts": {
-    "dev": "next dev -p ${PORT-8081}",
+    "dev": "next dev -p 8081",
     "start": "next start",
     "build": "next build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:es": "eslint --ext .ts,.tsx .",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "clear-all": "rm -rf node_modules .next out dist build",
     "re-start": "rm -rf node_modules .next out dist build && yarn install && yarn dev",
     "re-build": "rm -rf node_modules .next out dist build && yarn install && yarn build",
-    "re-build-test": "rm -rf node_modules .next out dist build && npm install && npm run build",
-    "prepare": "husky install"
+    "re-build-test": "rm -rf node_modules .next out dist build && npm install && npm run build"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.1",
@@ -51,7 +49,6 @@
     "highlight.js": "^11.9.0",
     "i18next": "^23.6.0",
     "i18next-browser-languagedetector": "^7.1.0",
-    "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "mapbox-gl": "^2.15.0",
     "mui-one-time-password-input": "^2.0.1",
@@ -88,7 +85,6 @@
     "@babel/plugin-transform-react-jsx": "^7.22.15",
     "@svgr/webpack": "^8.1.0",
     "@types/autosuggest-highlight": "^3.2.2",
-    "@types/js-cookie": "^3.0.5",
     "@types/lodash": "^4.14.200",
     "@types/mapbox-gl": "^2.7.17",
     "@types/node": "^20.8.9",
@@ -103,7 +99,6 @@
     "eslint": "^8.52.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-next": "^14.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -114,17 +109,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unused-imports": "^3.0.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
-  },
-  "lint-staged": {
-    "*.+(js|jsx|ts|tsx)": [
-      "eslint --max-warnings 0 --fix"
-    ],
-    "*.+(js|jsx|ts|tsx|json|css|md)": [
-      "prettier --write"
-    ]
   }
 }

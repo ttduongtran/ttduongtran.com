@@ -6,12 +6,12 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 // components
-import { primaryPresets } from '@/theme/options/presets';
+import { primaryPresets } from 'src/theme/options/presets';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import { useSettingsContext } from '@/components/settings';
-import { MotionViewport, varFade } from '@/components/animate';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import { useSettingsContext } from 'src/components/settings';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

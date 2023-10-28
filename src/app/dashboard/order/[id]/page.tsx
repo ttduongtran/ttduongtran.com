@@ -1,7 +1,7 @@
 // _mock
-import { _orders } from '@/_mock/_order';
+import { _orders } from 'src/_mock/_order';
 // sections
-import { OrderDetailsView } from '@/sections/order/view';
+import { OrderDetailsView } from 'src/sections/order/view';
 
 // ----------------------------------------------------------------------
 

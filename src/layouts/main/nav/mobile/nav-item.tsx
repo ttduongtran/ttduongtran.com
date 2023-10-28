@@ -3,9 +3,9 @@ import Link from '@mui/material/Link';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 // routes
-import { RouterLink } from '@/routes/components';
+import { RouterLink } from 'src/routes/components';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import { NavItemMobileProps } from '../types';
 import { ListItem } from './styles';

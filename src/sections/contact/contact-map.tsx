@@ -4,10 +4,10 @@ import { useState } from 'react';
 import { useTheme, styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 // config
-import { MAPBOX_API } from '@/config-global';
+import { MAPBOX_API } from 'src/config-global';
 // components
-import Iconify from '@/components/iconify';
-import { MapControl, MapMarker, MapPopup } from '@/components/map';
+import Iconify from 'src/components/iconify';
+import { MapControl, MapMarker, MapPopup } from 'src/components/map';
 
 // ----------------------------------------------------------------------
 

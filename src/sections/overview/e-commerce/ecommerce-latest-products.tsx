@@ -7,10 +7,10 @@ import CardHeader from '@mui/material/CardHeader';
 import Card, { CardProps } from '@mui/material/Card';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 //
-import Scrollbar from '@/components/scrollbar';
-import { ColorPreview } from '@/components/color-utils';
+import Scrollbar from 'src/components/scrollbar';
+import { ColorPreview } from 'src/components/color-utils';
 
 // ----------------------------------------------------------------------
 

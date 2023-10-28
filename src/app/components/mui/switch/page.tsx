@@ -1,5 +1,5 @@
 // sections
-import SwitchView from '@/sections/_examples/mui/switch-view';
+import SwitchView from 'src/sections/_examples/mui/switch-view';
 
 // ----------------------------------------------------------------------
 

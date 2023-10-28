@@ -6,11 +6,11 @@ import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // types
-import { IOrderProductItem } from '@/types/order';
+import { IOrderProductItem } from 'src/types/order';
 // components
-import Scrollbar from '@/components/scrollbar';
+import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 

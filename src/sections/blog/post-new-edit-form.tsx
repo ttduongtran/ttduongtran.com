@@ -14,24 +14,24 @@ import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 import FormControlLabel from '@mui/material/FormControlLabel';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // _mock
-import { _tags } from '@/_mock';
+import { _tags } from 'src/_mock';
 // types
-import { IPostItem } from '@/types/blog';
+import { IPostItem } from 'src/types/blog';
 // components
-import { CustomFile } from '@/components/upload';
-import { useSnackbar } from '@/components/snackbar';
+import { CustomFile } from 'src/components/upload';
+import { useSnackbar } from 'src/components/snackbar';
 import FormProvider, {
   RHFEditor,
   RHFUpload,
   RHFTextField,
   RHFAutocomplete,
-} from '@/components/hook-form';
+} from 'src/components/hook-form';
 //
 import PostDetailsPreview from './post-details-preview';
 

@@ -1,5 +1,5 @@
 // sections
-import { MailView } from '@/sections/mail/view';
+import { MailView } from 'src/sections/mail/view';
 
 // ----------------------------------------------------------------------
 

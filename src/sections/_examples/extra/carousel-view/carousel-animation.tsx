@@ -8,11 +8,11 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 // components
-import Image from '@/components/image';
-import { MotionContainer, varFade } from '@/components/animate';
-import Carousel, { CarouselArrowIndex, useCarousel } from '@/components/carousel';
+import Image from 'src/components/image';
+import { MotionContainer, varFade } from 'src/components/animate';
+import Carousel, { CarouselArrowIndex, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

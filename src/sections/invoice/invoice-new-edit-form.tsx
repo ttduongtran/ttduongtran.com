@@ -7,16 +7,16 @@ import LoadingButton from '@mui/lab/LoadingButton';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // types
-import { IInvoice } from '@/types/invoice';
+import { IInvoice } from 'src/types/invoice';
 // _mock
-import { _addressBooks } from '@/_mock';
+import { _addressBooks } from 'src/_mock';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // components
-import FormProvider from '@/components/hook-form';
+import FormProvider from 'src/components/hook-form';
 //
 import InvoiceNewEditDetails from './invoice-new-edit-details';
 import InvoiceNewEditAddress from './invoice-new-edit-address';

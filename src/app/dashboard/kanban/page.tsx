@@ -1,5 +1,5 @@
 // sections
-import { KanbanView } from '@/sections/kanban/view';
+import { KanbanView } from 'src/sections/kanban/view';
 
 // ----------------------------------------------------------------------
 

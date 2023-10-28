@@ -1,7 +1,7 @@
 'use client';
 
 // components
-import AuthModernLayout from '@/layouts/auth/modern';
+import AuthModernLayout from 'src/layouts/auth/modern';
 
 // ----------------------------------------------------------------------
 

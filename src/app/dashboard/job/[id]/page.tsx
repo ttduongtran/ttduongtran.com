@@ -1,7 +1,7 @@
 // _mock
-import { _jobs } from '@/_mock/_job';
+import { _jobs } from 'src/_mock/_job';
 // sections
-import { JobDetailsView } from '@/sections/job/view';
+import { JobDetailsView } from 'src/sections/job/view';
 
 // ----------------------------------------------------------------------
 

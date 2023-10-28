@@ -15,19 +15,19 @@ import TableRow, { tableRowClasses } from '@mui/material/TableRow';
 import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useDoubleClick } from '@/hooks/use-double-click';
-import { useCopyToClipboard } from '@/hooks/use-copy-to-clipboard';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useDoubleClick } from 'src/hooks/use-double-click';
+import { useCopyToClipboard } from 'src/hooks/use-copy-to-clipboard';
 // utils
-import { fData } from '@/utils/format-number';
+import { fData } from 'src/utils/format-number';
 // types
-import { IFileManager } from '@/types/file';
+import { IFileManager } from 'src/types/file';
 // components
-import Iconify from '@/components/iconify';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
-import { useSnackbar } from '@/components/snackbar';
-import { ConfirmDialog } from '@/components/custom-dialog';
-import FileThumbnail from '@/components/file-thumbnail';
+import Iconify from 'src/components/iconify';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
+import { useSnackbar } from 'src/components/snackbar';
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import FileThumbnail from 'src/components/file-thumbnail';
 //
 import FileManagerShareDialog from './file-manager-share-dialog';
 import FileManagerFileDetails from './file-manager-file-details';

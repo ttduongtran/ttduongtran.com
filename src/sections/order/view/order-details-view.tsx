@@ -6,11 +6,11 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _orders, ORDER_STATUS_OPTIONS } from '@/_mock';
+import { _orders, ORDER_STATUS_OPTIONS } from 'src/_mock';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 //
 import OrderDetailsInfo from '../order-details-info';
 import OrderDetailsItems from '../order-details-item';

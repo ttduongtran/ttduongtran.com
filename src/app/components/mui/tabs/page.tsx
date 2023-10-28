@@ -1,5 +1,5 @@
 // sections
-import TabsView from '@/sections/_examples/mui/tabs-view';
+import TabsView from 'src/sections/_examples/mui/tabs-view';
 
 // ----------------------------------------------------------------------
 

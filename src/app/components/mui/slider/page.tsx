@@ -1,5 +1,5 @@
 // sections
-import SliderView from '@/sections/_examples/mui/slider-view';
+import SliderView from 'src/sections/_examples/mui/slider-view';
 
 // ----------------------------------------------------------------------
 

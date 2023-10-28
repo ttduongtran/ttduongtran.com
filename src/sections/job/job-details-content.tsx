@@ -8,13 +8,13 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fDate } from '@/utils/format-time';
-import { fCurrency } from '@/utils/format-number';
+import { fDate } from 'src/utils/format-time';
+import { fCurrency } from 'src/utils/format-number';
 // types
-import { IJobItem } from '@/types/job';
+import { IJobItem } from 'src/types/job';
 // components
-import Iconify from '@/components/iconify';
-import Markdown from '@/components/markdown';
+import Iconify from 'src/components/iconify';
+import Markdown from 'src/components/markdown';
 
 // ----------------------------------------------------------------------
 

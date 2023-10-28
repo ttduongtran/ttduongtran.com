@@ -1,5 +1,5 @@
 // sections
-import { CalendarView } from '@/sections/calendar/view';
+import { CalendarView } from 'src/sections/calendar/view';
 
 // ----------------------------------------------------------------------
 

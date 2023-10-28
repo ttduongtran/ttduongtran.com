@@ -4,12 +4,12 @@ import { useTheme } from '@mui/material/styles';
 import ListItemText from '@mui/material/ListItemText';
 import Stack, { StackProps } from '@mui/material/Stack';
 // utils
-import { fNumber } from '@/utils/format-number';
+import { fNumber } from 'src/utils/format-number';
 // components
-import Iconify from '@/components/iconify';
-import Chart, { useChart } from '@/components/chart';
+import Iconify from 'src/components/iconify';
+import Chart, { useChart } from 'src/components/chart';
 // theme
-import { ColorSchema } from '@/theme/palette';
+import { ColorSchema } from 'src/theme/palette';
 
 // ----------------------------------------------------------------------
 

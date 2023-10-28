@@ -6,10 +6,10 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // components
-import { useSnackbar, VariantType, SnackbarOrigin } from '@/components/snackbar';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import { useSnackbar, VariantType, SnackbarOrigin } from 'src/components/snackbar';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ComponentBlock from '../component-block';
 

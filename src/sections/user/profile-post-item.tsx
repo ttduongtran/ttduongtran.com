@@ -16,15 +16,15 @@ import InputAdornment from '@mui/material/InputAdornment';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 // types
-import { IUserProfilePost } from '@/types/user';
+import { IUserProfilePost } from 'src/types/user';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // utils
-import { fDate } from '@/utils/format-time';
-import { fShortenNumber } from '@/utils/format-number';
+import { fDate } from 'src/utils/format-time';
+import { fShortenNumber } from 'src/utils/format-number';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

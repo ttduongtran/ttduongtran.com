@@ -1,5 +1,5 @@
 // sections
-import { IconsView } from '@/sections/_examples/foundation';
+import { IconsView } from 'src/sections/_examples/foundation';
 
 // ----------------------------------------------------------------------
 

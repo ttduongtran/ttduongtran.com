@@ -5,15 +5,15 @@ import { useTheme } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 // _mock
-import { _bookings, _bookingNew, _bookingsOverview, _bookingReview } from '@/_mock';
+import { _bookings, _bookingNew, _bookingsOverview, _bookingReview } from 'src/_mock';
 // assets
 import {
   BookingIllustration,
   CheckInIllustration,
   CheckoutIllustration,
-} from '@/assets/illustrations';
+} from 'src/assets/illustrations';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 //
 import BookingBooked from '../booking-booked';
 import BookingNewest from '../booking-newest';

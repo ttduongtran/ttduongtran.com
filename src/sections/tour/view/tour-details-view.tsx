@@ -6,12 +6,12 @@ import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
-import { _tours, TOUR_PUBLISH_OPTIONS, TOUR_DETAILS_TABS } from '@/_mock';
+import { _tours, TOUR_PUBLISH_OPTIONS, TOUR_DETAILS_TABS } from 'src/_mock';
 // components
-import Label from '@/components/label';
-import { useSettingsContext } from '@/components/settings';
+import Label from 'src/components/label';
+import { useSettingsContext } from 'src/components/settings';
 //
 import TourDetailsToolbar from '../tour-details-toolbar';
 import TourDetailsContent from '../tour-details-content';

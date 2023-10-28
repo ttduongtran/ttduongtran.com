@@ -13,20 +13,20 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useCopyToClipboard } from '@/hooks/use-copy-to-clipboard';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useCopyToClipboard } from 'src/hooks/use-copy-to-clipboard';
 // utils
-import { fDateTime } from '@/utils/format-time';
-import { fData } from '@/utils/format-number';
+import { fDateTime } from 'src/utils/format-time';
+import { fData } from 'src/utils/format-number';
 // types
-import { IFileManager } from '@/types/file';
+import { IFileManager } from 'src/types/file';
 // components
-import Iconify from '@/components/iconify';
-import CustomPopover, { usePopover } from '@/components/custom-popover';
-import { useSnackbar } from '@/components/snackbar';
-import TextMaxLine from '@/components/text-max-line';
-import FileThumbnail from '@/components/file-thumbnail';
-import { ConfirmDialog } from '@/components/custom-dialog';
+import Iconify from 'src/components/iconify';
+import CustomPopover, { usePopover } from 'src/components/custom-popover';
+import { useSnackbar } from 'src/components/snackbar';
+import TextMaxLine from 'src/components/text-max-line';
+import FileThumbnail from 'src/components/file-thumbnail';
+import { ConfirmDialog } from 'src/components/custom-dialog';
 //
 import FileManagerShareDialog from './file-manager-share-dialog';
 import FileManagerFileDetails from './file-manager-file-details';

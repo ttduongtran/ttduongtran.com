@@ -1,5 +1,5 @@
 // sections
-import TimelineView from '@/sections/_examples/mui/timeline-view';
+import TimelineView from 'src/sections/_examples/mui/timeline-view';
 
 // ----------------------------------------------------------------------
 

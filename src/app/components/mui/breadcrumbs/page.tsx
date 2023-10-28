@@ -1,5 +1,5 @@
 // sections
-import BreadcrumbsView from '@/sections/_examples/mui/breadcrumbs-view';
+import BreadcrumbsView from 'src/sections/_examples/mui/breadcrumbs-view';
 
 // ----------------------------------------------------------------------
 

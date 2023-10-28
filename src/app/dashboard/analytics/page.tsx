@@ -1,5 +1,5 @@
 // sections
-import { OverviewAnalyticsView } from '@/sections/overview/analytics/view';
+import { OverviewAnalyticsView } from 'src/sections/overview/analytics/view';
 
 // ----------------------------------------------------------------------
 

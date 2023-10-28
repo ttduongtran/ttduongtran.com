@@ -11,13 +11,13 @@ import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import { outlinedInputClasses } from '@mui/material/OutlinedInput';
 // hooks
-import { useCountdownDate } from '@/hooks/use-countdown';
+import { useCountdownDate } from 'src/hooks/use-countdown';
 // _mock
-import { _socials } from '@/_mock';
+import { _socials } from 'src/_mock';
 // assets
-import { ComingSoonIllustration } from '@/assets/illustrations';
+import { ComingSoonIllustration } from 'src/assets/illustrations';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

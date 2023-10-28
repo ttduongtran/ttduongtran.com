@@ -6,11 +6,11 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // types
-import { IChatParticipant, IChatMessage } from '@/types/chat';
+import { IChatParticipant, IChatMessage } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import { useGetMessage } from './hooks';
 

@@ -5,9 +5,9 @@ import Avatar from '@mui/material/Avatar';
 import ListItemText from '@mui/material/ListItemText';
 import { useTheme, alpha } from '@mui/material/styles';
 // types
-import { IUserProfileCover } from '@/types/user';
+import { IUserProfileCover } from 'src/types/user';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 
 // ----------------------------------------------------------------------
 

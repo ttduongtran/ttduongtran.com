@@ -1,7 +1,7 @@
 'use client';
 
 // components
-import SimpleLayout from '@/layouts/simple';
+import SimpleLayout from 'src/layouts/simple';
 
 // ----------------------------------------------------------------------
 

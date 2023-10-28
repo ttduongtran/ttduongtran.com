@@ -5,10 +5,10 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Stack, { StackProps } from '@mui/material/Stack';
 // types
-import { IOrderTableFilters, IOrderTableFilterValue } from '@/types/order';
+import { IOrderTableFilters, IOrderTableFilterValue } from 'src/types/order';
 // components
-import Iconify from '@/components/iconify';
-import { shortDateLabel } from '@/components/custom-date-range-picker';
+import Iconify from 'src/components/iconify';
+import { shortDateLabel } from 'src/components/custom-date-range-picker';
 
 // ----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 // sections
-import TransferListView from '@/sections/_examples/mui/transfer-list-view';
+import TransferListView from 'src/sections/_examples/mui/transfer-list-view';
 
 // ----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 // sections
-import { OverviewBankingView } from '@/sections/overview/banking/view';
+import { OverviewBankingView } from 'src/sections/overview/banking/view';
 
 // ----------------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 'use client';
 
 // components
-import CompactLayout from '@/layouts/compact';
+import CompactLayout from 'src/layouts/compact';
 
 // ----------------------------------------------------------------------
 

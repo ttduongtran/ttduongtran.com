@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import CardHeader from '@mui/material/CardHeader';
 import Card, { CardProps } from '@mui/material/Card';
 // components
-import Chart, { useChart } from '@/components/chart';
+import Chart, { useChart } from 'src/components/chart';
 
 // ----------------------------------------------------------------------
 

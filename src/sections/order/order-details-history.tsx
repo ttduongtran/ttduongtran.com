@@ -12,9 +12,9 @@ import Stack from '@mui/material/Stack';
 import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 // utils
-import { fDateTime } from '@/utils/format-time';
+import { fDateTime } from 'src/utils/format-time';
 // types
-import { IOrderHistory } from '@/types/order';
+import { IOrderHistory } from 'src/types/order';
 
 // ----------------------------------------------------------------------
 

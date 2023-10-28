@@ -6,8 +6,8 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // components
-import Image from '@/components/image';
-import { MotionViewport, varFade } from '@/components/animate';
+import Image from 'src/components/image';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

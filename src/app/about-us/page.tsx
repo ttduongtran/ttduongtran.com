@@ -1,5 +1,5 @@
 // sections
-import { AboutView } from '@/sections/about/view';
+import { AboutView } from 'src/sections/about/view';
 
 // ----------------------------------------------------------------------
 

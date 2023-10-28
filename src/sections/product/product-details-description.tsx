@@ -1,5 +1,5 @@
 // components
-import Markdown from '@/components/markdown';
+import Markdown from 'src/components/markdown';
 
 // ----------------------------------------------------------------------
 

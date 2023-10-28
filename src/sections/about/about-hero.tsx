@@ -5,7 +5,7 @@ import Container from '@mui/material/Container';
 import Box, { BoxProps } from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 // components
-import { MotionContainer, varFade } from '@/components/animate';
+import { MotionContainer, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

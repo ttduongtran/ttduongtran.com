@@ -5,14 +5,14 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import { CardProps } from '@mui/material/Card';
 // utils
-import { fCurrency, fPercent } from '@/utils/format-number';
+import { fCurrency, fPercent } from 'src/utils/format-number';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 // components
-import Iconify from '@/components/iconify';
-import Chart, { useChart } from '@/components/chart';
+import Iconify from 'src/components/iconify';
+import Chart, { useChart } from 'src/components/chart';
 // theme
-import { ColorSchema } from '@/theme/palette';
+import { ColorSchema } from 'src/theme/palette';
 
 // ----------------------------------------------------------------------
 

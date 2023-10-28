@@ -5,11 +5,11 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { CardProps } from '@mui/material/Card';
 // theme
-import { bgGradient } from '@/theme/css';
+import { bgGradient } from 'src/theme/css';
 // utils
-import { fShortenNumber } from '@/utils/format-number';
+import { fShortenNumber } from 'src/utils/format-number';
 // theme
-import { ColorSchema } from '@/theme/palette';
+import { ColorSchema } from 'src/theme/palette';
 
 // ----------------------------------------------------------------------
 

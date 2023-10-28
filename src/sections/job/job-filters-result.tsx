@@ -5,9 +5,9 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Stack, { StackProps } from '@mui/material/Stack';
 // types
-import { IJobFilters, IJobFilterValue } from '@/types/job';
+import { IJobFilters, IJobFilterValue } from 'src/types/job';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

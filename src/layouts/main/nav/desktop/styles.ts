@@ -4,7 +4,7 @@ import Paper from '@mui/material/Paper';
 import ListSubheader from '@mui/material/ListSubheader';
 import ListItemButton from '@mui/material/ListItemButton';
 // theme
-import { paper } from '@/theme/css';
+import { paper } from 'src/theme/css';
 //
 import { HEADER } from '../../../config-layout';
 import { NavItemDesktopProps } from '../types';

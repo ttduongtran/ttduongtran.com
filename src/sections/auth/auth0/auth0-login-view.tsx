@@ -7,11 +7,11 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 // routes
-import { useSearchParams } from '@/routes/hooks';
+import { useSearchParams } from 'src/routes/hooks';
 // auth
-import { useAuthContext } from '@/auth/hooks';
+import { useAuthContext } from 'src/auth/hooks';
 // config
-import { PATH_AFTER_LOGIN } from '@/config-global';
+import { PATH_AFTER_LOGIN } from 'src/config-global';
 
 // ----------------------------------------------------------------------
 

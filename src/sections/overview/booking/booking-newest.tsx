@@ -7,12 +7,12 @@ import Box, { BoxProps } from '@mui/material/Box';
 import CardHeader from '@mui/material/CardHeader';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fDateTime } from '@/utils/format-time';
+import { fDateTime } from 'src/utils/format-time';
 // components
-import Label from '@/components/label';
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import Carousel, { CarouselArrows, useCarousel } from '@/components/carousel';
+import Label from 'src/components/label';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import Carousel, { CarouselArrows, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

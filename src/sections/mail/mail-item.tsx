@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton, { ListItemButtonProps } from '@mui/material/ListItemButton';
 // types
-import { IMail } from '@/types/mail';
+import { IMail } from 'src/types/mail';
 
 // ----------------------------------------------------------------------
 

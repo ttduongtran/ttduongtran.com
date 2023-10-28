@@ -9,17 +9,17 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Unstable_Grid2';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // _mock
-import { _folders, _files } from '@/_mock';
+import { _folders, _files } from 'src/_mock';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
-import { UploadBox } from '@/components/upload';
-import { useSettingsContext } from '@/components/settings';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import { UploadBox } from 'src/components/upload';
+import { useSettingsContext } from 'src/components/settings';
 //
 import FileWidget from '../../../file-manager/file-widget';
 import FileUpgrade from '../../../file-manager/file-upgrade';

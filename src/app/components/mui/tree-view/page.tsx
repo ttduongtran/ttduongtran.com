@@ -1,5 +1,5 @@
 // sections
-import TreeViews from '@/sections/_examples/mui/tree-view';
+import TreeViews from 'src/sections/_examples/mui/tree-view';
 
 // ----------------------------------------------------------------------
 

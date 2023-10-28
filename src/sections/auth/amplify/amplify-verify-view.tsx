@@ -10,18 +10,18 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 // auth
-import { useAuthContext } from '@/auth/hooks';
+import { useAuthContext } from 'src/auth/hooks';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
-import { useRouter, useSearchParams } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 // hooks
-import { useCountdownSeconds } from '@/hooks/use-countdown';
+import { useCountdownSeconds } from 'src/hooks/use-countdown';
 // assets
-import { EmailInboxIcon } from '@/assets/icons';
+import { EmailInboxIcon } from 'src/assets/icons';
 // components
-import Iconify from '@/components/iconify';
-import FormProvider, { RHFCode, RHFTextField } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import FormProvider, { RHFCode, RHFTextField } from 'src/components/hook-form';
 
 // ----------------------------------------------------------------------
 

@@ -7,16 +7,16 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter, useSearchParams } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 // hooks
-import { useMockedUser } from '@/hooks/use-mocked-user';
+import { useMockedUser } from 'src/hooks/use-mocked-user';
 // api
-import { useGetContacts, useGetConversation, useGetConversations } from '@/api/chat';
+import { useGetContacts, useGetConversation, useGetConversations } from 'src/api/chat';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 // types
-import { IChatParticipant } from '@/types/chat';
+import { IChatParticipant } from 'src/types/chat';
 //
 import ChatNav from '../chat-nav';
 import ChatRoom from '../chat-room';

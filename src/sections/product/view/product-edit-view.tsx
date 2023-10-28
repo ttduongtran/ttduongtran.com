@@ -3,12 +3,12 @@
 // @mui
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // api
-import { useGetProduct } from '@/api/product';
+import { useGetProduct } from 'src/api/product';
 // components
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import ProductNewEditForm from '../product-new-edit-form';
 

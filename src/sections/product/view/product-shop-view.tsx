@@ -8,10 +8,10 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useDebounce } from '@/hooks/use-debounce';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useDebounce } from 'src/hooks/use-debounce';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // _mock
 import {
   PRODUCT_SORT_OPTIONS,
@@ -19,14 +19,14 @@ import {
   PRODUCT_GENDER_OPTIONS,
   PRODUCT_RATING_OPTIONS,
   PRODUCT_CATEGORY_OPTIONS,
-} from '@/_mock';
+} from 'src/_mock';
 // api
-import { useGetProducts, useSearchProducts } from '@/api/product';
+import { useGetProducts, useSearchProducts } from 'src/api/product';
 // components
-import EmptyContent from '@/components/empty-content';
-import { useSettingsContext } from '@/components/settings';
+import EmptyContent from 'src/components/empty-content';
+import { useSettingsContext } from 'src/components/settings';
 // types
-import { IProductItem, IProductFilters, IProductFilterValue } from '@/types/product';
+import { IProductItem, IProductFilters, IProductFilterValue } from 'src/types/product';
 //
 import { useCheckoutContext } from '../../checkout/context';
 import CartIcon from '../common/cart-icon';

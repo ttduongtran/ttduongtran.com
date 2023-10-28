@@ -9,12 +9,12 @@ import Container from '@mui/material/Container';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // _mock
-import { _carouselsMembers, _socials } from '@/_mock';
+import { _carouselsMembers, _socials } from 'src/_mock';
 // components
-import Image from '@/components/image';
-import Iconify from '@/components/iconify';
-import { MotionViewport, varFade } from '@/components/animate';
-import Carousel, { CarouselArrows, useCarousel } from '@/components/carousel';
+import Image from 'src/components/image';
+import Iconify from 'src/components/iconify';
+import { MotionViewport, varFade } from 'src/components/animate';
+import Carousel, { CarouselArrows, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

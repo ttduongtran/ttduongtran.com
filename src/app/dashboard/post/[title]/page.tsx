@@ -1,8 +1,8 @@
 // utils
-import { paramCase } from '@/utils/change-case';
-import axios, { endpoints } from '@/utils/axios';
+import { paramCase } from 'src/utils/change-case';
+import axios, { endpoints } from 'src/utils/axios';
 // sections
-import { PostDetailsView } from '@/sections/blog/view';
+import { PostDetailsView } from 'src/sections/blog/view';
 
 // ----------------------------------------------------------------------
 

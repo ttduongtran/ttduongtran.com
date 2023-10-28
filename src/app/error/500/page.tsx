@@ -1,5 +1,5 @@
 // sections
-import { View500 } from '@/sections/error';
+import { View500 } from 'src/sections/error';
 
 // ----------------------------------------------------------------------
 

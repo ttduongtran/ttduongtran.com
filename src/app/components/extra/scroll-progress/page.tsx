@@ -1,5 +1,5 @@
 // sections
-import ScrollProgressView from '@/sections/_examples/extra/scroll-progress-view';
+import ScrollProgressView from 'src/sections/_examples/extra/scroll-progress-view';
 
 // ----------------------------------------------------------------------
 

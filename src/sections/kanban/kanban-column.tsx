@@ -6,7 +6,7 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // api
 import {
   updateColumn,
@@ -15,12 +15,12 @@ import {
   createTask,
   updateTask,
   deleteTask,
-} from '@/api/kanban';
+} from 'src/api/kanban';
 // components
-import Iconify from '@/components/iconify';
-import { useSnackbar } from '@/components/snackbar';
+import Iconify from 'src/components/iconify';
+import { useSnackbar } from 'src/components/snackbar';
 // types
-import { IKanbanColumn, IKanbanTask } from '@/types/kanban';
+import { IKanbanColumn, IKanbanTask } from 'src/types/kanban';
 //
 import KanbanTaskAdd from './kanban-task-add';
 import KanbanTaskItem from './kanban-task-item';

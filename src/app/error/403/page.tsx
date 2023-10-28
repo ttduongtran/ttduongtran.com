@@ -1,5 +1,5 @@
 // sections
-import { View403 } from '@/sections/error';
+import { View403 } from 'src/sections/error';
 
 // ----------------------------------------------------------------------
 

@@ -6,9 +6,9 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 // _mock
-import { _bankingContacts, _bankingCreditCard, _bankingRecentTransitions } from '@/_mock';
+import { _bankingContacts, _bankingCreditCard, _bankingRecentTransitions } from 'src/_mock';
 // components
-import { useSettingsContext } from '@/components/settings';
+import { useSettingsContext } from 'src/components/settings';
 //
 import BankingContacts from '../banking-contacts';
 import BankingQuickTransfer from '../banking-quick-transfer';

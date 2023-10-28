@@ -6,10 +6,10 @@ import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import Stack, { StackProps } from '@mui/material/Stack';
 // types
-import { ITourFilters, ITourFilterValue, ITourGuide } from '@/types/tour';
+import { ITourFilters, ITourFilterValue, ITourGuide } from 'src/types/tour';
 // components
-import Iconify from '@/components/iconify';
-import { shortDateLabel } from '@/components/custom-date-range-picker';
+import Iconify from 'src/components/iconify';
+import { shortDateLabel } from 'src/components/custom-date-range-picker';
 
 // ----------------------------------------------------------------------
 

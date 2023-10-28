@@ -4,10 +4,10 @@ import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 import Card, { CardProps } from '@mui/material/Card';
 // utils
-import { fShortenNumber } from '@/utils/format-number';
+import { fShortenNumber } from 'src/utils/format-number';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 

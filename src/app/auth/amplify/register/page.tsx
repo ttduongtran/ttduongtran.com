@@ -1,5 +1,5 @@
 // sections
-import { AmplifyRegisterView } from '@/sections/auth/amplify';
+import { AmplifyRegisterView } from 'src/sections/auth/amplify';
 
 // ----------------------------------------------------------------------
 

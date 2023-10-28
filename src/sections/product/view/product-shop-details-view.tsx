@@ -12,14 +12,14 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
-import { useGetProduct } from '@/api/product';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
+import { useGetProduct } from 'src/api/product';
 // components
-import Iconify from '@/components/iconify';
-import EmptyContent from '@/components/empty-content';
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import EmptyContent from 'src/components/empty-content';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 //
 import CartIcon from '../common/cart-icon';
 import ProductDetailsReview from '../product-details-review';

@@ -11,11 +11,11 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
-import { useResponsive } from '@/hooks/use-responsive';
+import { useBoolean } from 'src/hooks/use-boolean';
+import { useResponsive } from 'src/hooks/use-responsive';
 // components
-import Iconify from '@/components/iconify';
-import Editor from '@/components/editor';
+import Iconify from 'src/components/iconify';
+import Editor from 'src/components/editor';
 
 // ----------------------------------------------------------------------
 

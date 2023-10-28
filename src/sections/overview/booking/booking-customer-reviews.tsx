@@ -10,9 +10,9 @@ import Typography from '@mui/material/Typography';
 import Card, { CardProps } from '@mui/material/Card';
 import ListItemText from '@mui/material/ListItemText';
 // utils
-import { fDateTime } from '@/utils/format-time';
+import { fDateTime } from 'src/utils/format-time';
 // components
-import Carousel, { CarouselArrows, useCarousel } from '@/components/carousel';
+import Carousel, { CarouselArrows, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

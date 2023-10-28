@@ -5,12 +5,12 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // types
-import { IMails } from '@/types/mail';
+import { IMails } from 'src/types/mail';
 // components
-import Iconify from '@/components/iconify';
-import Scrollbar from '@/components/scrollbar';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
 //
 import MailItem from './mail-item';
 import { MailItemSkeleton } from './mail-skeleton';

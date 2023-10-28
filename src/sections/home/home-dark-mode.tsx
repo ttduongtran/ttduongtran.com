@@ -7,9 +7,9 @@ import Switch from '@mui/material/Switch';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // components
-import Image from '@/components/image';
-import { useSettingsContext } from '@/components/settings';
-import { MotionViewport, varFade } from '@/components/animate';
+import Image from 'src/components/image';
+import { useSettingsContext } from 'src/components/settings';
+import { MotionViewport, varFade } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

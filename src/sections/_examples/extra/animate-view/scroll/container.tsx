@@ -5,8 +5,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 // components
-import Scrollbar from '@/components/scrollbar';
-import { MotionViewport, varContainer } from '@/components/animate';
+import Scrollbar from 'src/components/scrollbar';
+import { MotionViewport, varContainer } from 'src/components/animate';
 //
 import getVariant from '../get-variant';
 

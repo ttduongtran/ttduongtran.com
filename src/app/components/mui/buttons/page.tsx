@@ -1,5 +1,5 @@
 // sections
-import ButtonView from '@/sections/_examples/mui/button-view';
+import ButtonView from 'src/sections/_examples/mui/button-view';
 
 // ----------------------------------------------------------------------
 

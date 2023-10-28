@@ -3,11 +3,11 @@ import { useCallback } from 'react';
 import Box from '@mui/material/Box';
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
 // routes
-import { paths } from '@/routes/paths';
+import { paths } from 'src/routes/paths';
 // types
-import { ITourItem } from '@/types/tour';
+import { ITourItem } from 'src/types/tour';
 // components
-import { useRouter } from '@/routes/hooks';
+import { useRouter } from 'src/routes/hooks';
 //
 import TourItem from './tour-item';
 

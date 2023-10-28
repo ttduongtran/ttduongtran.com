@@ -2,7 +2,7 @@
 
 import { createContext, useContext } from 'react';
 // types
-import { CheckoutContextProps } from '@/types/checkout';
+import { CheckoutContextProps } from 'src/types/checkout';
 
 // ----------------------------------------------------------------------
 

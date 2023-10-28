@@ -1,5 +1,5 @@
 // sections
-import { ColorsView } from '@/sections/_examples/foundation';
+import { ColorsView } from 'src/sections/_examples/foundation';
 
 // ----------------------------------------------------------------------
 

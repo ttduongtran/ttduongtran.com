@@ -1,5 +1,5 @@
 // sections
-import { ModernForgotPasswordView } from '@/sections/auth-demo/modern';
+import { ModernForgotPasswordView } from 'src/sections/auth-demo/modern';
 
 // ----------------------------------------------------------------------
 

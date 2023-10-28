@@ -8,10 +8,10 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // _mock
 import {
   _jobs,
@@ -20,16 +20,16 @@ import {
   JOB_BENEFIT_OPTIONS,
   JOB_EXPERIENCE_OPTIONS,
   JOB_EMPLOYMENT_TYPE_OPTIONS,
-} from '@/_mock';
+} from 'src/_mock';
 // assets
-import { countries } from '@/assets/data';
+import { countries } from 'src/assets/data';
 // components
-import Iconify from '@/components/iconify';
-import EmptyContent from '@/components/empty-content';
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import EmptyContent from 'src/components/empty-content';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 // types
-import { IJobItem, IJobFilters, IJobFilterValue } from '@/types/job';
+import { IJobItem, IJobFilters, IJobFilterValue } from 'src/types/job';
 //
 import JobList from '../job-list';
 import JobSort from '../job-sort';

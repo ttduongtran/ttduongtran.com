@@ -13,18 +13,18 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
-import { useSearchParams, useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
+import { useSearchParams, useRouter } from 'src/routes/hooks';
 // config
-import { PATH_AFTER_LOGIN } from '@/config-global';
+import { PATH_AFTER_LOGIN } from 'src/config-global';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // auth
-import { useAuthContext } from '@/auth/hooks';
+import { useAuthContext } from 'src/auth/hooks';
 // components
-import Iconify from '@/components/iconify';
-import FormProvider, { RHFTextField } from '@/components/hook-form';
+import Iconify from 'src/components/iconify';
+import FormProvider, { RHFTextField } from 'src/components/hook-form';
 
 // ----------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ export default function JwtLoginView() {
   });
 
   const defaultValues = {
-    email: 'hello@ttduongtran.com',
+    email: 'demo@minimals.cc',
     password: 'demo1234',
   };
 
@@ -76,7 +76,7 @@ export default function JwtLoginView() {
 
   const renderHead = (
     <Stack spacing={2} sx={{ mb: 5 }}>
-      <Typography variant="h4">Sign in to DuongTT</Typography>
+      <Typography variant="h4">Sign in to Minimal</Typography>
 
       <Stack direction="row" spacing={0.5}>
         <Typography variant="body2">New user?</Typography>
@@ -131,7 +131,7 @@ export default function JwtLoginView() {
       {renderHead}
 
       <Alert severity="info" sx={{ mb: 3 }}>
-        Use email : <strong>hello@ttduongtran.com</strong> / password :<strong> demo1234</strong>
+        Use email : <strong>demo@minimals.cc</strong> / password :<strong> demo1234</strong>
       </Alert>
 
       {renderForm}

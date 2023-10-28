@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Card, { CardProps } from '@mui/material/Card';
 import LinearProgress from '@mui/material/LinearProgress';
 // utils
-import { fPercent, fCurrency } from '@/utils/format-number';
+import { fPercent, fCurrency } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

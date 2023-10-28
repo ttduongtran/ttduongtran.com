@@ -1,5 +1,5 @@
 // i18n
-import '@/locales/i18n';
+import 'src/locales/i18n';
 
 // scrollbar
 import 'simplebar-react/dist/simplebar.min.css';
@@ -25,29 +25,30 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 // ----------------------------------------------------------------------
 
 // locales
-import { LocalizationProvider } from '@/locales';
+import { LocalizationProvider } from 'src/locales';
 // theme
-import ThemeProvider from '@/theme';
-import { primaryFont } from '@/theme/typography';
+import ThemeProvider from 'src/theme';
+import { primaryFont } from 'src/theme/typography';
 // components
-import ProgressBar from '@/components/progress-bar';
-import { MotionLazy } from '@/components/animate/motion-lazy';
-import SnackbarProvider from '@/components/snackbar/snackbar-provider';
-import { SettingsProvider, SettingsDrawer } from '@/components/settings';
+import ProgressBar from 'src/components/progress-bar';
+import { MotionLazy } from 'src/components/animate/motion-lazy';
+import SnackbarProvider from 'src/components/snackbar/snackbar-provider';
+import { SettingsProvider, SettingsDrawer } from 'src/components/settings';
 // sections
-import { CheckoutProvider } from '@/sections/checkout/context';
+import { CheckoutProvider } from 'src/sections/checkout/context';
 // auth
-import { AuthProvider, AuthConsumer } from '@/auth/context/jwt';
-// import { AuthProvider, AuthConsumer } from '@/auth/context/auth0';
-// import { AuthProvider, AuthConsumer } from '@/auth/context/amplify';
-// import { AuthProvider, AuthConsumer } from '@/auth/context/firebase';
+import { AuthProvider, AuthConsumer } from 'src/auth/context/jwt';
+// import { AuthProvider, AuthConsumer } from 'src/auth/context/auth0';
+// import { AuthProvider, AuthConsumer } from 'src/auth/context/amplify';
+// import { AuthProvider, AuthConsumer } from 'src/auth/context/firebase';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Duong TT',
+  title: 'DuongTT',
   description:
-    'DuongTT is a software engineer, who is passionate about building web applications with React, Ruby on Rails, and other modern web technologies.',
+    'This is DuongTT - The starting point for my portfolio project',
+  keywords: 'frontend,developer,react,material,kit,application,dashboard,admin,template',
   themeColor: '#000000',
   manifest: '/manifest.json',
   viewport: {

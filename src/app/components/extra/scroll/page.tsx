@@ -1,5 +1,5 @@
 // sections
-import ScrollView from '@/sections/_examples/extra/scroll-view';
+import ScrollView from 'src/sections/_examples/extra/scroll-view';
 
 // ----------------------------------------------------------------------
 

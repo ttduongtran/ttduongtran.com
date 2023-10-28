@@ -7,23 +7,23 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 // routes
-import { paths } from '@/routes/paths';
-import { RouterLink } from '@/routes/components';
+import { paths } from 'src/routes/paths';
+import { RouterLink } from 'src/routes/components';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // utils
-import { fTimestamp } from '@/utils/format-time';
+import { fTimestamp } from 'src/utils/format-time';
 // _mock
-import { _tours, _tourGuides, TOUR_SERVICE_OPTIONS, TOUR_SORT_OPTIONS } from '@/_mock';
+import { _tours, _tourGuides, TOUR_SERVICE_OPTIONS, TOUR_SORT_OPTIONS } from 'src/_mock';
 // assets
-import { countries } from '@/assets/data';
+import { countries } from 'src/assets/data';
 // components
-import Iconify from '@/components/iconify';
-import EmptyContent from '@/components/empty-content';
-import { useSettingsContext } from '@/components/settings';
-import CustomBreadcrumbs from '@/components/custom-breadcrumbs';
+import Iconify from 'src/components/iconify';
+import EmptyContent from 'src/components/empty-content';
+import { useSettingsContext } from 'src/components/settings';
+import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 // types
-import { ITourItem, ITourFilters, ITourFilterValue } from '@/types/tour';
+import { ITourItem, ITourFilters, ITourFilterValue } from 'src/types/tour';
 //
 import TourList from '../tour-list';
 import TourSort from '../tour-sort';

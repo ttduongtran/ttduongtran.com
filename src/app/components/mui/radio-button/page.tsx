@@ -1,5 +1,5 @@
 // sections
-import RadioButtonView from '@/sections/_examples/mui/radio-button-view';
+import RadioButtonView from 'src/sections/_examples/mui/radio-button-view';
 
 // ----------------------------------------------------------------------
 

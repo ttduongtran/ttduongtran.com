@@ -6,8 +6,8 @@ import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import Card, { CardProps } from '@mui/material/Card';
 // components
-import Image from '@/components/image';
-import Carousel, { CarouselDots, useCarousel } from '@/components/carousel';
+import Image from 'src/components/image';
+import Carousel, { CarouselDots, useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 

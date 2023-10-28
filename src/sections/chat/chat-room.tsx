@@ -8,11 +8,11 @@ import Stack from '@mui/material/Stack';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 // hooks
-import { useResponsive } from '@/hooks/use-responsive';
+import { useResponsive } from 'src/hooks/use-responsive';
 // types
-import { IChatConversation, IChatParticipant } from '@/types/chat';
+import { IChatConversation, IChatParticipant } from 'src/types/chat';
 // components
-import Iconify from '@/components/iconify';
+import Iconify from 'src/components/iconify';
 //
 import { useCollapseNav } from './hooks';
 import ChatRoomGroup from './chat-room-group';

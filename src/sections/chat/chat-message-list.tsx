@@ -1,10 +1,10 @@
 // @mui
 import Box from '@mui/material/Box';
 // types
-import { IChatParticipant, IChatMessage } from '@/types/chat';
+import { IChatParticipant, IChatMessage } from 'src/types/chat';
 // components
-import Scrollbar from '@/components/scrollbar';
-import Lightbox, { useLightBox } from '@/components/lightbox';
+import Scrollbar from 'src/components/scrollbar';
+import Lightbox, { useLightBox } from 'src/components/lightbox';
 //
 import { useMessagesScroll } from './hooks';
 import ChatMessageItem from './chat-message-item';

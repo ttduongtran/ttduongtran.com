@@ -1,5 +1,5 @@
 // sections
-import { JwtLoginView } from '@/sections/auth/jwt';
+import { JwtLoginView } from 'src/sections/auth/jwt';
 
 // ----------------------------------------------------------------------
 

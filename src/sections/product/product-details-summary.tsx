@@ -11,18 +11,18 @@ import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 import { formHelperTextClasses } from '@mui/material/FormHelperText';
 // routes
-import { paths } from '@/routes/paths';
-import { useRouter } from '@/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
 // utils
-import { fShortenNumber, fCurrency } from '@/utils/format-number';
+import { fShortenNumber, fCurrency } from 'src/utils/format-number';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import { ColorPicker } from '@/components/color-utils';
-import FormProvider, { RHFSelect } from '@/components/hook-form';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import { ColorPicker } from 'src/components/color-utils';
+import FormProvider, { RHFSelect } from 'src/components/hook-form';
 // types
-import { IProductItem } from '@/types/product';
-import { ICheckoutItem } from '@/types/checkout';
+import { IProductItem } from 'src/types/product';
+import { ICheckoutItem } from 'src/types/checkout';
 //
 import IncrementerButton from './common/incrementer-button';
 

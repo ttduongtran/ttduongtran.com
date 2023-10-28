@@ -8,13 +8,13 @@ import TableCell from '@mui/material/TableCell';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // utils
-import { fCurrency } from '@/utils/format-number';
+import { fCurrency } from 'src/utils/format-number';
 // components
-import Label from '@/components/label';
-import Iconify from '@/components/iconify';
-import { ColorPreview } from '@/components/color-utils';
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import { ColorPreview } from 'src/components/color-utils';
 // types
-import { ICheckoutItem } from '@/types/checkout';
+import { ICheckoutItem } from 'src/types/checkout';
 //
 import IncrementerButton from '../product/common/incrementer-button';
 

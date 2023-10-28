@@ -1,4 +1,4 @@
-import { CustomFile } from '@/components/upload';
+import { CustomFile } from 'src/components/upload';
 
 // ----------------------------------------------------------------------
 

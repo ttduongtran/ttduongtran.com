@@ -1,5 +1,5 @@
 // sections
-import MapView from '@/sections/_examples/extra/map-view';
+import MapView from 'src/sections/_examples/extra/map-view';
 
 // ----------------------------------------------------------------------
 

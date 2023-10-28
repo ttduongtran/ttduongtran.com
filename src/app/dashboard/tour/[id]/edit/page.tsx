@@ -1,7 +1,7 @@
 // _mock
-import { _tours } from '@/_mock/_tour';
+import { _tours } from 'src/_mock/_tour';
 // sections
-import { TourEditView } from '@/sections/tour/view';
+import { TourEditView } from 'src/sections/tour/view';
 
 // ----------------------------------------------------------------------
 

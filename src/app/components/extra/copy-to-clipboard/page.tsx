@@ -1,5 +1,5 @@
 // sections
-import CopyToClipboardView from '@/sections/_examples/extra/copy-to-clipboard-view';
+import CopyToClipboardView from 'src/sections/_examples/extra/copy-to-clipboard-view';
 
 // ----------------------------------------------------------------------
 

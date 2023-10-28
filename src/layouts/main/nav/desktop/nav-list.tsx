@@ -6,10 +6,10 @@ import Fade from '@mui/material/Fade';
 import Stack from '@mui/material/Stack';
 import Portal from '@mui/material/Portal';
 // hooks
-import { useBoolean } from '@/hooks/use-boolean';
+import { useBoolean } from 'src/hooks/use-boolean';
 // routes
-import { usePathname } from '@/routes/hooks';
-import { useActiveLink } from '@/routes/hooks/use-active-link';
+import { usePathname } from 'src/routes/hooks';
+import { useActiveLink } from 'src/routes/hooks/use-active-link';
 //
 import { NavItemProps } from '../types';
 import { NavItem, NavItemDashboard } from './nav-item';
