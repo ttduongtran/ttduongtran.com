@@ -4,7 +4,7 @@ import { HomeView } from 'src/sections/home/view';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'techtown.asia: The starting point for your next project',
+  title: 'ttduongtran: The starting point for your next project',
 };
 
 export default function HomePage() {

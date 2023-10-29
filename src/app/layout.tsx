@@ -45,8 +45,8 @@ import { AuthProvider, AuthConsumer } from 'src/auth/context/jwt';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'techtown.asia',
-  description: 'This is techtown.asia - The starting point for my portfolio project',
+  title: 'ttduongtran',
+  description: 'This is ttduongtran - The starting point for my portfolio project',
   keywords: 'frontend,developer,react,material,kit,application,dashboard,admin,template',
   themeColor: '#000000',
   manifest: '/manifest.json',
