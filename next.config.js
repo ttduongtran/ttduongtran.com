@@ -8,6 +8,9 @@ module.exports = {
       transform: '@mui/lab/{{member}}',
     },
   },
+  experimental: {
+    webpackBuildWorker: true,
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

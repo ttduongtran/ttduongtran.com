@@ -39,8 +39,8 @@ export default function AppWidgetSummary({ title, percent, total, chart, sx, ...
       type: 'gradient',
       gradient: {
         colorStops: [
-          { offset: 0, color: colors[0] },
-          { offset: 100, color: colors[1] },
+          { offset: 0, color: colors[0], opacity: 1 },
+          { offset: 100, color: colors[1], opacity: 1 },
         ],
       },
     },

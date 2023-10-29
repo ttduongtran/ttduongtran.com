@@ -29,7 +29,7 @@ export function useGetProducts() {
 // ----------------------------------------------------------------------
 
 export function useGetProduct(productId: string) {
-  const URL = productId ? [endpoints.product.details, { params: { productId } }] : null;
+  const URL = productId ? [endpoints.product.details, { params: { productId } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher);
 
@@ -49,7 +49,7 @@ export function useGetProduct(productId: string) {
 // ----------------------------------------------------------------------
 
 export function useSearchProducts(query: string) {
-  const URL = query ? [endpoints.product.search, { params: { query } }] : null;
+  const URL = query ? [endpoints.product.search, { params: { query } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher, {
     keepPreviousData: true,

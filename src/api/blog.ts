@@ -29,7 +29,7 @@ export function useGetPosts() {
 // ----------------------------------------------------------------------
 
 export function useGetPost(title: string) {
-  const URL = title ? [endpoints.post.details, { params: { title } }] : null;
+  const URL = title ? [endpoints.post.details, { params: { title } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher);
 
@@ -49,7 +49,7 @@ export function useGetPost(title: string) {
 // ----------------------------------------------------------------------
 
 export function useGetLatestPosts(title: string) {
-  const URL = title ? [endpoints.post.latest, { params: { title } }] : null;
+  const URL = title ? [endpoints.post.latest, { params: { title } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher);
 
@@ -70,7 +70,7 @@ export function useGetLatestPosts(title: string) {
 // ----------------------------------------------------------------------
 
 export function useSearchPosts(query: string) {
-  const URL = query ? [endpoints.post.search, { params: { query } }] : null;
+  const URL = query ? [endpoints.post.search, { params: { query } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher, {
     keepPreviousData: true,

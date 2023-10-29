@@ -14,7 +14,8 @@
     "clear-all": "rm -rf node_modules .next out dist build",
     "re-start": "rm -rf node_modules .next out dist build && yarn install && yarn dev",
     "re-build": "rm -rf node_modules .next out dist build && yarn install && yarn build",
-    "re-build-test": "rm -rf node_modules .next out dist build && npm install && npm run build"
+    "re-build-test": "rm -rf node_modules .next out dist build && npm install && npm run build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.1",
@@ -99,6 +100,7 @@
     "eslint": "^8.52.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "^14.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -109,7 +111,17 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "lint-staged": {
+    "*.+(js|jsx|ts|tsx)": [
+      "eslint --max-warnings 0 --fix"
+    ],
+    "*.+(js|jsx|ts|tsx|json|css|md)": [
+      "prettier --write"
+    ]
   }
 }

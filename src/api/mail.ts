@@ -30,7 +30,7 @@ export function useGetLabels() {
 // ----------------------------------------------------------------------
 
 export function useGetMails(labelId: string) {
-  const URL = labelId ? [endpoints.mail.list, { params: { labelId } }] : null;
+  const URL = labelId ? [endpoints.mail.list, { params: { labelId } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher);
 
@@ -56,7 +56,7 @@ export function useGetMails(labelId: string) {
 // ----------------------------------------------------------------------
 
 export function useGetMail(mailId: string) {
-  const URL = mailId ? [endpoints.mail.details, { params: { mailId } }] : null;
+  const URL = mailId ? [endpoints.mail.details, { params: { mailId } }] : '';
 
   const { data, isLoading, error, isValidating } = useSWR(URL, fetcher);
 
