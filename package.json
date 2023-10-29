@@ -1,8 +1,8 @@
 {
-  "name": "ttduongtran.com",
-  "author": "DuongTT",
+  "name": "techtown.asia",
+  "author": "techtown.asia",
   "version": "1.0.0",
-  "description": "This is my personal website",
+  "description": "Template next (app routes) and ts",
   "private": true,
   "scripts": {
     "dev": "next dev -p 8081",
