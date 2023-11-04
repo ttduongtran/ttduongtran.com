@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 // routes
 import { paths } from 'src/routes/paths';
-import { usePathname } from 'src/routes/hooks';
+// import { usePathname } from 'src/routes/hooks';
 import { RouterLink } from 'src/routes/components';
 // _mock
 import { _socials } from 'src/_mock';
@@ -22,54 +22,57 @@ import Iconify from 'src/components/iconify';
 
 const LINKS = [
   {
-    headline: 'Minimal',
+    headline: 'DuongTT',
     children: [
-      { name: 'About us', href: paths.about },
-      { name: 'Contact us', href: paths.contact },
+      { name: 'About', href: paths.about },
+      { name: 'Contact', href: paths.contact },
       { name: 'FAQs', href: paths.faqs },
     ],
   },
   {
-    headline: 'Legal',
+    headline: 'Explore me',
     children: [
-      { name: 'Terms and Condition', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
+      { name: 'Educations', href: '#' },
+      { name: 'Works', href: '#' },
     ],
   },
   {
     headline: 'Contact',
-    children: [{ name: 'support@minimals.cc', href: '#' }],
+    children: [
+      { name: 'Email', href: 'mailto:ttduongtran@gmail.com' },
+      { name: 'Telegram', href: '#' },
+    ],
   },
 ];
 
 // ----------------------------------------------------------------------
 
 export default function Footer() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
-  const isHome = pathname === '/';
+  // const isHome = pathname === '/';
 
-  const simpleFooter = (
-    <Box
-      component="footer"
-      sx={{
-        py: 5,
-        textAlign: 'center',
-        position: 'relative',
-        bgcolor: 'background.default',
-      }}
-    >
-      <Container>
-        <Logo sx={{ mb: 1, mx: 'auto' }} />
+  // const simpleFooter = (
+  //   <Box
+  //     component="footer"
+  //     sx={{
+  //       py: 5,
+  //       textAlign: 'center',
+  //       position: 'relative',
+  //       bgcolor: 'background.default',
+  //     }}
+  //   >
+  //     <Container>
+  //       <Logo sx={{ mb: 1, mx: 'auto' }} />
 
-        <Typography variant="caption" component="div">
-          © All rights reserved
-          <br /> made by
-          <Link href="https://minimals.cc/"> minimals.cc </Link>
-        </Typography>
-      </Container>
-    </Box>
-  );
+  //       <Typography variant="caption" component="div">
+  //         © All rights reserved
+  //         <br /> made by
+  //         <Link href="#!"> ttduongtran.com </Link>
+  //       </Typography>
+  //     </Container>
+  //   </Box>
+  // );
 
   const mainFooter = (
     <Box
@@ -105,8 +108,8 @@ export default function Footer() {
                 mx: { xs: 'auto', md: 'unset' },
               }}
             >
-              The starting point for your next project with Minimal UI Kit, built on the newest
-              version of Material-UI ©, ready to be customized to your style.
+              I'm a software engineer based in Ho Chi Minh City, Vietnam. I have a passion for
+              software development and love to create for web and mobile devices.
             </Typography>
 
             <Stack
@@ -163,11 +166,11 @@ export default function Footer() {
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © 2021. All rights reserved
+          © 2023. All rights reserved
         </Typography>
       </Container>
     </Box>
   );
 
-  return isHome ? simpleFooter : mainFooter;
+  return mainFooter;
 }

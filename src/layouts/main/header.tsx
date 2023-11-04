@@ -67,15 +67,9 @@ export default function Header() {
               },
             }}
             badgeContent={
-              <Link
-                href={paths.changelog}
-                target="_blank"
-                rel="noopener"
-                underline="none"
-                sx={{ ml: 1 }}
-              >
+              <Link href={'/'} underline="none" sx={{ ml: 1 }}>
                 <Label color="info" sx={{ textTransform: 'unset', height: 22, px: 0.5 }}>
-                  v5.5.0
+                  DuongTT
                 </Label>
               </Link>
             }
@@ -88,9 +82,9 @@ export default function Header() {
           {mdUp && <NavDesktop offsetTop={offsetTop} data={navConfig} />}
 
           <Stack alignItems="center" direction={{ xs: 'row', md: 'row-reverse' }}>
-            <Button variant="contained" target="_blank" rel="noopener" href={paths.minimalUI}>
-              Purchase Now
-            </Button>
+            <Link href={paths.contact} underline="none">
+              <Button variant="contained"> Hired me! </Button>
+            </Link>
 
             {mdUp && <LoginButton />}
 

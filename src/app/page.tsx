@@ -4,7 +4,7 @@ import { HomeView } from 'src/sections/home/view';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'ttduongtran: The starting point for your next project',
+  title: 'DuongTT: This is my portfolio page',
 };
 
 export default function HomePage() {
